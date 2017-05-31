@@ -5,6 +5,7 @@ import {
   TEST_ASYNC_ACTION_START,
   TEST_ASYNC_ACTION_ERROR,
   TEST_ASYNC_ACTION_SUCCESS,
+  COUNTER_DOUBLE_ASYNC
 } from 'actions/app';
 
 const initialState = Map({
@@ -37,6 +38,14 @@ const actionsMap = {
     });
   },
   [TEST_ASYNC_ACTION_SUCCESS]: (state, action) => {
+    console.log(action, 'action')
+    return state.merge({
+      asyncLoading: false,
+      asyncData: action.data,
+    });
+  },
+  [COUNTER_DOUBLE_ASYNC]: (state, action) => {
+    console.log(action, 'action-----')
     return state.merge({
       asyncLoading: false,
       asyncData: action.data,

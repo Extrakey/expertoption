@@ -1,10 +1,10 @@
-import api from 'api';
-
+import fetch from 'isomorphic-fetch'
 export const TEST_ACTION = 'TEST_ACTION';
 
 export const TEST_ASYNC_ACTION_START = 'TEST_ASYNC_ACTION_START';
 export const TEST_ASYNC_ACTION_ERROR = 'TEST_ASYNC_ACTION_ERROR';
 export const TEST_ASYNC_ACTION_SUCCESS = 'TEST_ASYNC_ACTION_SUCCESS';
+export const COUNTER_DOUBLE_ASYNC = 'COUNTER_DOUBLE_ASYNC';
 
 // Test action
 
@@ -36,14 +36,14 @@ function testAsyncError(error) {
   };
 }
 
-export function testAsync() {
-  return function (dispatch) {
-    dispatch(testAsyncStart());
-
-    api.testAsync()
-      .then(data => dispatch(testAsyncSuccess(data)))
-      .catch(error => dispatch(testAsyncError(error)));
-  };
+export function testAsync(data) {
+  return (dispatch, getState) => {
+    dispatch(testAsyncStart())
+    return fetch('./mock/app.json')
+      .then(response => dispatch(testAsyncSuccess(response.json())))
+      .then(json => console.log(json))
+      .catch(err => dispatch(testAsyncError(err)))
+  }
 }
 
 // Update
