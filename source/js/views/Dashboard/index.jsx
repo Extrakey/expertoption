@@ -6,6 +6,8 @@ import * as appAction from 'actions/app';
 import Icon from 'components/Global/Icon';
 import bookImg from '../../../assets/img/book2.jpg';
 
+import {FormattedMessage} from 'react-intl';
+
 @connect(state => ({
   asyncData: state.app.get('asyncData'),
   asyncError: state.app.get('asyncError'),
@@ -50,6 +52,12 @@ export default class Dashboard extends Component {
         <h1>Marvin</h1>
         <p>
           Boilerplate for kicking off React/Redux applications.
+        </p>
+
+        <p>
+          <FormattedMessage
+            id='test'
+          />
         </p>
 
         <hr />
