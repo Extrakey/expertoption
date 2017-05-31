@@ -173,7 +173,7 @@ module.exports = {
     compress: isProduction,
     inline: !isProduction,
     hot: !isProduction,
-    host: '0.0.0.0',
+    host: 'localhost',
     disableHostCheck: true,
     stats: {
       assets: true,
