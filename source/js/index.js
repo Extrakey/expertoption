@@ -6,6 +6,17 @@ import thunk from 'redux-thunk';
 import 'babel-polyfill';
 import logger from 'dev/logger';
 
+// 多语言
+import {IntlProvider, addLocaleData} from 'react-intl';
+import en from 'react-intl/locale-data/en';
+import zh from 'react-intl/locale-data/zh';
+import locale from './locale';
+import { getQueryValue } from "./util";
+
+addLocaleData([...en, ...zh]);
+
+const language = !!getQueryValue('locale') ? getQueryValue('locale') : 'zh'
+
 import rootReducer from 'reducers';
 import Routes from 'routes';
 
@@ -48,11 +59,14 @@ if (isProduction) {
   );
 }
 
+console.log(store)
 
 // Render it to DOM
 ReactDOM.render(
-  <Provider store={ store }>
-    <Routes />
-  </Provider>,
+  <IntlProvider locale='zh' messages={locale[language] ? locale[language] : locale['zh']}>
+    <Provider store={ store }>
+      <Routes />
+    </Provider>
+   </IntlProvider>,
   document.getElementById('root')
 );
