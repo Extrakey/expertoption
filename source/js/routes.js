@@ -29,7 +29,13 @@ export const routeCodes = {
   PRICING: `${ publicPath }pricing`,
   EDUCATION: `${ publicPath }education`,
   CONTACTS: `${ publicPath }contacts`,
+  // APP
   APP: `${ publicPath }app`,
+  BILLING: `${ publicPath }app/billing`,
+  USER: `${ publicPath }app/user`,
+  ANALYTIES: `${ publicPath }app/analytics`,
+  PLANTFORMS: `${ publicPath }app/platforms`,
+  INFO: `${ publicPath }app/info`,
 };
 
 export default class Routes extends Component {
@@ -42,13 +48,15 @@ export default class Routes extends Component {
           <Route path={ routeCodes.PRICING } component={ Pricing } />
           <Route path={ routeCodes.EDUCATION } component={ Education } />
           <Route path={ routeCodes.CONTACTS } component={ Contacts } />
-          <Route path={ routeCodes.APP} component={ App } />
-          <Route path={ routeCodes.DEMO } component={ demoApp }>
-            <Route path={ routeCodes.DEMOINDEX } component={ demoIndex } />
-            <Route path={ routeCodes.DASHBOARD } component={ Dashboard } />
-            <Route path={ routeCodes.ABOUT } component={ About } />
-            <Route path='*' component={ NotFound } />
-          </Route>
+        </Route>
+        <Route path={ routeCodes.APP} component={ App }>
+
+        </Route>
+        <Route path={ routeCodes.DEMO } component={ demoApp }>
+          <Route path={ routeCodes.DEMOINDEX } component={ demoIndex } />
+          <Route path={ routeCodes.DASHBOARD } component={ Dashboard } />
+          <Route path={ routeCodes.ABOUT } component={ About } />
+          <Route path='*' component={ NotFound } />
         </Route>
       </Router>
     );

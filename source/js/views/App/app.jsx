@@ -14,11 +14,13 @@ export default class App extends Component {
 
     return (
       <div className='App'>
-        <Menu />
+        <LEFTNAV />
 
         <div className='Page'>
+          <Nav />
           { children }
         </div>
+        <RightNav />
       </div>
     );
   }
