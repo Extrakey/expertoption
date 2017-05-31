@@ -17,11 +17,7 @@ export default class App extends Component {
 
     return (
       <div className='App_Wrapper'>
-        <AppNav />
-        <div className='App_Page'>
-          <LeftNav />
-          { children }
-        </div>
+
       </div>
     );
   }

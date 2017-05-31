@@ -16,6 +16,8 @@ import Education from 'views/Education';
 import Contacts from 'views/Contacts';
 
 import App from 'views/App/app';
+import appIndex from 'views/App/appIndex';
+import Billing from 'views/Billing';
 
 const publicPath = '/';
 
@@ -50,11 +52,12 @@ export default class Routes extends Component {
           <Route path={ routeCodes.CONTACTS } component={ Contacts } />
         </Route>
         <Route path={ routeCodes.APP} component={ App }>
-
+          <IndexRoute component={ appIndex } />
+          <Route path={ routeCodes.BILLING } component={ Billing } />
         </Route>
         <Route path={ routeCodes.DEMO } component={ demoApp }>
+          <IndexRoute component={ Dashboard } />
           <Route path={ routeCodes.DEMOINDEX } component={ demoIndex } />
-          <Route path={ routeCodes.DASHBOARD } component={ Dashboard } />
           <Route path={ routeCodes.ABOUT } component={ About } />
           <Route path='*' component={ NotFound } />
         </Route>

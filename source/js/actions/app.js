@@ -41,7 +41,7 @@ export function testAsync(data) {
     dispatch(testAsyncStart())
     return fetch('./mock/app.json')
       .then(response => response.json())
-      .then(json => dispatch(testAsyncSuccess((json))))
+      .then(response => dispatch(testAsyncSuccess((json))))
       .catch(err => dispatch(testAsyncError(err)))
   }
 }
