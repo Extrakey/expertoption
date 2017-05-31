@@ -38,14 +38,12 @@ const actionsMap = {
     });
   },
   [TEST_ASYNC_ACTION_SUCCESS]: (state, action) => {
-    console.log(action, 'action')
     return state.merge({
       asyncLoading: false,
       asyncData: action.data,
     });
   },
   [COUNTER_DOUBLE_ASYNC]: (state, action) => {
-    console.log(action, 'action-----')
     return state.merge({
       asyncLoading: false,
       asyncData: action.data,
