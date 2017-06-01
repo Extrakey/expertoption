@@ -13,8 +13,6 @@ export default class Transaction extends Component {
 
 
   render() {
-    const { children } = this.props;
-
     return (
       <div className='App_Wrapper'>
         交易
