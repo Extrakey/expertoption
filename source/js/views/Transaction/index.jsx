@@ -6,7 +6,7 @@ import LeftNav from 'components/Global/LeftNav';
 import AppNav from 'components/Global/AppNav';
 import RightNav from 'components/Global/RightNav';
 
-export default class App extends Component {
+export default class Transaction extends Component {
   static propTypes = {
     children: PropTypes.object,
   }
@@ -16,8 +16,8 @@ export default class App extends Component {
     const { children } = this.props;
 
     return (
-      <div className='wrapper'>
-
+      <div className='App_Wrapper'>
+        交易
       </div>
     );
   }

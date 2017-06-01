@@ -2,11 +2,14 @@
  * Created by jiangnan on 17/5/31.
  */
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { IndexLink, Link } from 'react-router';
 import { routeCodes } from '../../routes';
-import workAndCoLogoImg from '../../../assets/img/workco-logo.svg';
 
 export default class Menu extends Component {
+  static propTypes = {
+    children: PropTypes.object,
+  }
   render() {
     return (
       <div className='menu-links' style={{width: '180px'}}>
@@ -42,21 +45,31 @@ export default class Menu extends Component {
            <Link
              activeClassName='menu-link-active'
              className='menu-link'
-             to={ routeCodes.ANALYTIES }
+             to={ routeCodes.ANALYTICS }
            >
              市场分析
            </Link>
          </li>
          <li>
            <Link
-             activeClassName='Menu-link--active'
-             className='Menu-link'
+             activeClassName='menu-link-active'
+             className='menu-link'
+             to={ routeCodes.PLANTFORMS }
+           >
+             应用
+           </Link>
+         </li>
+         <li>
+           <Link
+             activeClassName='menu-link-active'
+             className='menu-link'
              to={ routeCodes.INFO }
            >
              帮助
            </Link>
          </li>
        </ul>
+        {this.props.children}
       </div>
     );
   }

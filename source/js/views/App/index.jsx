@@ -19,7 +19,10 @@ export default class App extends Component {
       <div className='App_Wrapper'>
         <AppNav />
         <div className='flex'>
-          <LeftNav />
+          <LeftNav>
+              <div>设置</div>
+              <div>退出</div>
+          </LeftNav>
           { children }
           <RightNav />
         </div>

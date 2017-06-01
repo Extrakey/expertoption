@@ -17,11 +17,11 @@ export default class Menu extends Component {
     console.log(navData, 'navDatanavData')
     return (
       <div className='Menu'>
-        <div className='Menu-links'>
+        <div className='menu-link'>
            {navData.map(item =>
              <Link
-              activeClassName='Menu-link--active'
-              className='Menu-link'
+              activeClassName='menu-link--active'
+              className='menu-link'
               to={ item.url }>
               {item.name}
             </Link>
