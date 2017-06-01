@@ -15,7 +15,7 @@ import { getQueryValue } from "./util";
 
 addLocaleData([...en, ...zh]);
 
-const language = !!getQueryValue('locale') ? getQueryValue('locale') : 'zh'
+const language = !!getQueryValue('locale') ? getQueryValue('locale') : 'zh_CN'
 
 import rootReducer from 'reducers';
 import Routes from 'routes';
@@ -63,7 +63,7 @@ console.log(store)
 
 // Render it to DOM
 ReactDOM.render(
-  <IntlProvider locale='zh' messages={locale[language] ? locale[language] : locale['zh']}>
+  <IntlProvider locale={navigator.language.split('-')[0]} messages={locale[language] ? locale[language] : locale['zh']}>
     <Provider store={ store }>
       <Routes />
     </Provider>

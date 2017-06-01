@@ -7,31 +7,31 @@ export default class Menu extends Component {
 
   render() {
     return (
-      <div className='Menu'>
-        <div className='Menu-logo'>
+      <div className='menu'>
+        <div className='menu-logo'>
           <img
             src={ workAndCoLogoImg }
             alt='Work & Co logo'
           />
         </div>
-        <div className='Menu-links'>
+        <div className='menu-links'>
           <IndexLink
-            activeClassName='Menu-link--active'
-            className='Menu-link'
+            activeClassName='menu-link-active'
+            className='menu-link'
             to={ routeCodes.DASHBOARD }
           >
             Home
           </IndexLink>
           <Link
-            activeClassName='Menu-link--active'
-            className='Menu-link'
+            activeClassName='menu-link-active'
+            className='menu-link'
             to={ routeCodes.ABOUT }
           >
             About
           </Link>
           <Link
-            activeClassName='Menu-link--active'
-            className='Menu-link'
+            activeClassName='menu-link-active'
+            className='menu-link'
             to='404'
           >
             404

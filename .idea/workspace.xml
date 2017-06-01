@@ -2,17 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef9124b-be2a-4a3b-b08f-e2e2b7de31f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/views/Billing/Billing.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/views/Billing/PayHistory.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/views/Billing/Withdrawal.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/mock/pricing.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/mock/withdrawal.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/zh_TW.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/app-071e7bdd7c10fd52fe95.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/book1-dbff2b40ab3fe637247770798269fd9a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/book2-1240e90615f6ac37ab2e647e25b64c20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/icons-sprite.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/style-071e7bdd7c10fd52fe95.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/vendor-071e7bdd7c10fd52fe95.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/js/locale/zh.js" afterPath="$PROJECT_DIR$/source/js/locale/zh_CN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/actions/billing.js" afterPath="$PROJECT_DIR$/source/js/actions/billing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/components/Global/AppNav.jsx" afterPath="$PROJECT_DIR$/source/js/components/Global/AppNav.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/components/Global/LeftNav.jsx" afterPath="$PROJECT_DIR$/source/js/components/Global/LeftNav.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/reducers/billing.js" afterPath="$PROJECT_DIR$/source/js/reducers/billing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/routes.js" afterPath="$PROJECT_DIR$/source/js/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/views/Billing/index.jsx" afterPath="$PROJECT_DIR$/source/js/views/Billing/index.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/components/Global/Menu.jsx" afterPath="$PROJECT_DIR$/source/js/components/Global/Menu.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/components/Global/RightNav.jsx" afterPath="$PROJECT_DIR$/source/js/components/Global/RightNav.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/index.js" afterPath="$PROJECT_DIR$/source/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/locale/index.js" afterPath="$PROJECT_DIR$/source/js/locale/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/util/index.js" afterPath="$PROJECT_DIR$/source/js/util/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/views/App/app.jsx" afterPath="$PROJECT_DIR$/source/js/views/App/app.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/views/App/appIndex.jsx" afterPath="$PROJECT_DIR$/source/js/views/App/appIndex.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/scss/base/_app.scss" afterPath="$PROJECT_DIR$/source/scss/base/_app.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -32,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/source/js/views/Billing/Billing.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="188" column="24" lean-forward="true" selection-start-line="188" selection-start-column="24" selection-end-line="188" selection-end-column="24" />
+              <caret line="188" column="24" lean-forward="false" selection-start-line="188" selection-start-column="24" selection-end-line="188" selection-end-column="24" />
               <folding>
                 <element signature="e#43#84#0" expanded="true" />
                 <element signature="e#478#665#0" expanded="false" />
@@ -48,13 +71,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeftNav.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LeftNav.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/js/components/Global/LeftNav.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+            <state relative-caret-position="148">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
-                <element signature="e#43#85#0" expanded="false" />
+                <element signature="e#43#84#0" expanded="true" />
+                <marker date="1496322231000" expanded="true" signature="302:1506" ph="{...}" />
+                <marker date="1496322231000" expanded="true" signature="317:1506" ph="&lt;div/&gt;" />
               </folding>
             </state>
           </provider>
@@ -74,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/source/js/routes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="302">
-              <caret line="58" column="52" lean-forward="true" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+              <caret line="58" column="52" lean-forward="false" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#320#350#0" expanded="true" />
@@ -83,7 +108,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/js/views/Billing/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="486">
@@ -111,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/source/js/views/Billing/Withdrawal.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="366">
-              <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+              <caret line="34" column="3" lean-forward="false" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
               <folding>
                 <element signature="e#42#84#0" expanded="false" />
                 <element signature="e#85#126#0" expanded="true" />
@@ -144,9 +169,10 @@
         <entry file="file://$PROJECT_DIR$/source/js/reducers/billing.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="60" column="24" lean-forward="true" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+              <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
               <folding>
                 <element signature="e#42#75#0" expanded="true" />
+                <marker date="1496320649000" expanded="true" signature="1203:1345" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -249,8 +275,8 @@
         <option value="$PROJECT_DIR$/source/js/views/Billing/Withdrawal.jsx" />
         <option value="$PROJECT_DIR$/source/js/components/Global/TabNav.jsx" />
         <option value="$PROJECT_DIR$/source/js/components/Global/AppNav.jsx" />
-        <option value="$PROJECT_DIR$/source/js/components/Global/LeftNav.jsx" />
         <option value="$PROJECT_DIR$/source/js/views/Billing/index.jsx" />
+        <option value="$PROJECT_DIR$/source/js/components/Global/LeftNav.jsx" />
       </list>
     </option>
   </component>
@@ -697,12 +723,12 @@
       <updated>1496208195054</updated>
       <workItem from="1496211432837" duration="1635000" />
       <workItem from="1496217731887" duration="20585000" />
-      <workItem from="1496297242238" duration="18492000" />
+      <workItem from="1496297242238" duration="18582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40712000" />
+    <option name="totallyTimeSpent" value="40802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -746,6 +772,7 @@
           <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding>
             <element signature="e#42#75#0" expanded="true" />
+            <marker date="1496320649000" expanded="true" signature="1203:1345" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -844,7 +871,7 @@
         <state relative-caret-position="306">
           <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
           <folding>
-            <element signature="e#43#84#0" expanded="true" />
+            <element signature="e#43#84#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1090,9 +1117,10 @@
     <entry file="file://$PROJECT_DIR$/source/js/reducers/billing.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="60" column="24" lean-forward="true" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+          <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
           <folding>
             <element signature="e#42#75#0" expanded="true" />
+            <marker date="1496320649000" expanded="true" signature="1203:1345" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1100,7 +1128,7 @@
     <entry file="file://$PROJECT_DIR$/source/js/views/Billing/Withdrawal.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
-          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+          <caret line="34" column="3" lean-forward="false" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
           <folding>
             <element signature="e#42#84#0" expanded="false" />
             <element signature="e#85#126#0" expanded="true" />
@@ -1121,7 +1149,7 @@
     <entry file="file://$PROJECT_DIR$/source/js/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
-          <caret line="58" column="52" lean-forward="true" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+          <caret line="58" column="52" lean-forward="false" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#320#350#0" expanded="true" />
@@ -1148,7 +1176,7 @@
     <entry file="file://$PROJECT_DIR$/source/js/views/Billing/Billing.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="188" column="24" lean-forward="true" selection-start-line="188" selection-start-column="24" selection-end-line="188" selection-end-column="24" />
+          <caret line="188" column="24" lean-forward="false" selection-start-line="188" selection-start-column="24" selection-end-line="188" selection-end-column="24" />
           <folding>
             <element signature="e#43#84#0" expanded="true" />
             <element signature="e#478#665#0" expanded="false" />
@@ -1163,22 +1191,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/components/Global/LeftNav.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding>
-            <element signature="e#43#85#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/js/views/Billing/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
           <folding>
             <element signature="e#43#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/components/Global/LeftNav.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#84#0" expanded="true" />
+            <marker date="1496322231000" expanded="true" signature="302:1506" ph="{...}" />
+            <marker date="1496322231000" expanded="true" signature="317:1506" ph="&lt;div/&gt;" />
           </folding>
         </state>
       </provider>
