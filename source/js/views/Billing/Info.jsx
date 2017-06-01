@@ -2,6 +2,9 @@
  * Created by jiangnan on 17/6/1.
  */
 /**
+ * Created by jiangnan on 17/6/1.
+ */
+/**
  * Created by jiangnan on 17/5/31.
  */
 import React, { Component } from 'react';
@@ -28,20 +31,35 @@ const style = {
 
 @Radium
 export default class App extends Component {
-  static propTypes = {
-    title: PropTypes.string,
-    desc: PropTypes.string,
-    active: PropTypes.object,
-  }
 
   render() {
-    const { title, desc, activeStyle, onClick, imgSrc, itemStyle } = this.props;
 
     return (
-      <div className="flex column" style={[style.payWrapper, itemStyle, activeStyle]} onClick={onClick}>
-        {imgSrc && <img src={`../../assets/img/${imgSrc}.png`} alt={imgSrc} />}
-        {title && <h5>{title}</h5>}
-        {desc && <p style={style.desc}>{desc}</p>}
+      <div>
+        <div>
+          <img src="img" alt=""/>
+          受VFSC监管
+        </div>
+        <div>
+          <img src="img" alt=""/>
+          受VFSC监管
+        </div>
+        <div>
+          <img src="img" alt=""/>
+          受VFSC监管
+        </div>
+        <div>
+          <img src="img" alt=""/>
+          受VFSC监管
+        </div>
+        <div>
+          <img src="img" alt=""/>
+          受VFSC监管
+        </div>
+        <div>
+          <img src="img" alt=""/>
+          受VFSC监管
+        </div>
       </div>
     );
   }

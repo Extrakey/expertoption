@@ -16,7 +16,9 @@ const initialState = Immutable.fromJS({
   asyncData: null,
   list: {
     presets: [],
-    payment_methods: []
+    payment_methods: [],
+    payment_methods_less: [],
+    currency: [],
   }
 });
 
@@ -39,7 +41,10 @@ const actionsMap = {
     console.log(action, 'action')
     return state.merge({
       asyncLoading: false,
-      list: action.data,
+      list: {
+        ...action.data,
+        payment_methods_less: action.data.payment_methods.slice(0, 3),
+      },
     });
   },
 };
