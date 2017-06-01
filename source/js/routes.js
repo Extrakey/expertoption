@@ -18,6 +18,9 @@ import Contacts from 'views/Contacts';
 import App from 'views/App/app';
 import appIndex from 'views/App/appIndex';
 import Billing from 'views/Billing';
+import BillingIndex from 'views/Billing/Billing';
+import Withdrawal from 'views/Billing/Withdrawal';
+import PayHistory from 'views/Billing/PayHistory';
 
 const publicPath = '/';
 
@@ -55,7 +58,11 @@ export default class Routes extends Component {
         </Route>
         <Route path={ routeCodes.APP} component={ App }>
           <IndexRoute component={ appIndex } />
-          <Route path={ routeCodes.BILLING } component={ Billing } />
+          <Route path={ routeCodes.BILLING } component={ Billing }>
+            <IndexRoute component={ BillingIndex } />
+            <Route path={ routeCodes.PAYHISTORY } component={ PayHistory } />
+            <Route path={ routeCodes.WITHDRAWAL } component={ Withdrawal } />
+          </Route>
         </Route>
         <Route path={ routeCodes.DEMO } component={ demoApp }>
           <IndexRoute component={ Dashboard } />

@@ -12,7 +12,7 @@ import workAndCoLogoImg from '../../../assets/img/workco-logo.svg';
 export default class Menu extends Component {
   render() {
     return (
-      <div className='Menu-links'>
+      <div className='Menu-links' style={{width: '180px'}}>
        <ul>
          <li>
            <Link
