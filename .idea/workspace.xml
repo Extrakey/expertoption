@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef9124b-be2a-4a3b-b08f-e2e2b7de31f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/views/Analytics/AnalyticsIndex.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/views/Analytics/Stocks.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/views/Analytics/index.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/views/Info/About.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/views/Info/Education.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/views/Info/Faq.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/views/Info/Info.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/views/Info/Terms.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/views/Info/index.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/views/Plantforms/index.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/views/User/Deals.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/views/User/Edit.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/views/User/User.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/views/User/index.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/mock/get_asset_schedule.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/js/views/App/appIndex.jsx" afterPath="$PROJECT_DIR$/source/js/views/Transaction/index.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/mock/faq.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/mock/terms.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/components/Global/LeftNav.jsx" afterPath="$PROJECT_DIR$/source/js/components/Global/LeftNav.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/components/Global/TabNav.jsx" afterPath="$PROJECT_DIR$/source/js/components/Global/TabNav.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/routes.js" afterPath="$PROJECT_DIR$/source/js/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/views/App/index.jsx" afterPath="$PROJECT_DIR$/source/js/views/App/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/scss/base/_app.scss" afterPath="$PROJECT_DIR$/source/scss/base/_app.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,11 +31,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/js/views/Transaction/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
               <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="terms.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/mock/terms.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="669">
+              <caret line="105" column="1" lean-forward="false" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/mock/about.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="82" column="4" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="faq.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/mock/faq.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="642">
+              <caret line="145" column="1" lean-forward="false" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -70,43 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="About.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/js/views/Info/About.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Education.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/js/views/Info/Education.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Menu.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/js/components/Global/Menu.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
               <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Faq.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/js/views/Info/Faq.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,6 +134,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
@@ -204,10 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/source/js/views/Education/index.jsx" />
-        <option value="$PROJECT_DIR$/source/js/views/Contacts/index.jsx" />
-        <option value="$PROJECT_DIR$/source/js/views/Home/index.jsx" />
-        <option value="$PROJECT_DIR$/source/js/components/Global/LeftNav.jsx.js" />
         <option value="$PROJECT_DIR$/source/js/components/Global/AppNav.jsx.js" />
         <option value="$PROJECT_DIR$/source/js/views/App/appIndex.jsx" />
         <option value="$PROJECT_DIR$/source/mock/billing.json" />
@@ -255,6 +231,10 @@
         <option value="$PROJECT_DIR$/source/js/components/Global/LeftNav.jsx" />
         <option value="$PROJECT_DIR$/source/js/routes.js" />
         <option value="$PROJECT_DIR$/source/js/views/Transaction/index.jsx" />
+        <option value="$PROJECT_DIR$/source/mock/terms.js" />
+        <option value="$PROJECT_DIR$/source/mock/terms.json" />
+        <option value="$PROJECT_DIR$/source/mock/tsconfig.json" />
+        <option value="$PROJECT_DIR$/source/mock/faq.json" />
       </list>
     </option>
   </component>
@@ -653,12 +633,12 @@
       <updated>1496208195054</updated>
       <workItem from="1496211432837" duration="1635000" />
       <workItem from="1496217731887" duration="20585000" />
-      <workItem from="1496297242238" duration="23049000" />
+      <workItem from="1496297242238" duration="23294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45269000" />
+    <option name="totallyTimeSpent" value="45514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -696,28 +676,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/scss/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/dev/logger-exports.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/js/dev/logger.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1147,6 +1105,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/mock/terms.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="105" column="1" lean-forward="false" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/mock/about.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="82" column="4" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/mock/faq.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="145" column="1" lean-forward="false" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
           <folding />
         </state>
       </provider>
