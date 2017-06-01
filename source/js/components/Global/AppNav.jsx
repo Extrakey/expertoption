@@ -11,13 +11,6 @@ const style = {
   menuLinks: {
     position: 'relative'
   },
-  languageMenu: {
-    width: '300px',
-    height: '300px',
-    position: 'absolute',
-    left: '20px',
-    top: '50px'
-  }
 }
 
 export default class Menu extends Component {
@@ -46,14 +39,14 @@ export default class Menu extends Component {
   render() {
     const { showLanguage } = this.state
     return (
-      <div className='Menu-links' style={ style.menuLinks }>
+      <div className='app-navs'>
         <img src="../../../assets/img/logo.jpg" width={40} alt="logo"/>
         <span onClick={ this.toggleLanguageShow }>切换语言</span>
         <span>全屏</span>
         <span>学习资料</span>
         <span>声音</span>
         <span>定位</span>
-        <div className="language-menu" style={{ ...style.languageMenu, display: showLanguage ? 'block' : 'none' }} onClick={ this.setLanguage }>
+        <div className="language-menu" style={{ display: showLanguage ? 'block' : 'none' }} onClick={ this.setLanguage }>
           <span data-lan="en">English</span>
           <span data-lan="zh_CN">简体中文</span>
         </div>

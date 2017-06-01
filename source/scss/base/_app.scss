@@ -194,3 +194,42 @@ hr {
 .flex_wrap{
   flex-wrap: wrap;
 }
+
+/* app nav */
+.app-navs {
+  height: 60px;
+  padding-left: 80px;
+  position: relative;
+}
+.app-navs img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 0;
+  top: 0;
+}
+.app-navs span {
+  line-height: 60px;
+  padding: 0 30px;
+  font-size: 24px;
+}
+.language-menu {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 20px;
+  top: 50px;
+  border: 1px solid #eee;
+  background-color: #fff;
+}
+
+.menu-links {
+  position: absolute;
+  left: 0;
+  top: 60px;
+}
+.right-menu {
+  position: absolute;
+  right: 0;
+  top: 60;
+}
