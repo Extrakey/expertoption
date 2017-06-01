@@ -1,7 +1,8 @@
 /**
  * Created by jiangnan on 17/6/1.
  */
-import { Map } from 'immutable';
+import Immutable from 'immutable'
+
 
 import {
   GET_BILLING_START,
@@ -9,11 +10,14 @@ import {
   GET_BILLING_SUCCESS,
 } from 'actions/billing';
 
-const initialState = Map({
-  counter: 0,
+const initialState = Immutable.fromJS({
   asyncLoading: false,
   asyncError: null,
   asyncData: null,
+  list: {
+    presets: [],
+    payment_methods: []
+  }
 });
 
 const actionsMap = {
@@ -35,7 +39,7 @@ const actionsMap = {
     console.log(action, 'action')
     return state.merge({
       asyncLoading: false,
-      asyncData: action.data,
+      list: action.data,
     });
   },
 };

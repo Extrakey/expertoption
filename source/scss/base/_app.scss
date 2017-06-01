@@ -179,6 +179,15 @@ hr {
   margin: 2rem 0;
 }
 
-.App_Page {
+.flex {
   display: flex;
+}
+
+.column{
+  flex-direction: column;
+}
+
+
+.flex_wrap{
+  flex-wrap: wrap;
 }
