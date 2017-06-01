@@ -2,17 +2,16 @@
  * Created by jiangnan on 17/5/31.
  */
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 import PropTypes from 'prop-types';
-import * as appAction from 'actions/app';
+import * as billingAction from 'actions/billing';
 
 import Menu from 'components/Global/Menu';
 
 @connect(state => ({
-  asyncData: state.app.get('asyncData'),
-  asyncError: state.app.get('asyncError'),
-  asyncLoading: state.app.get('asyncLoading'),
-  counter: state.app.get('counter'),
-}), dispatch => bindActionCreators(appAction, dispatch))
+  billing: state.billing,
+}), dispatch => bindActionCreators(billingAction, dispatch))
 export default class App extends Component {
   static propTypes = {
     asyncData: PropTypes.string,
@@ -24,13 +23,13 @@ export default class App extends Component {
   }
 
   componentDidMount() {
-
+    this.props.mobileDeposit()
   }
 
 
   render() {
-    const { children } = this.props;
-
+    const { billing } = this.props;
+    console.log(billing.toJS(), 'billing')
     return (
       <div className='App'>
         账户类型
