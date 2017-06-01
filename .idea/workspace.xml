@@ -2,40 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef9124b-be2a-4a3b-b08f-e2e2b7de31f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/locale/zh_TW.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/app-071e7bdd7c10fd52fe95.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/book1-dbff2b40ab3fe637247770798269fd9a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/book2-1240e90615f6ac37ab2e647e25b64c20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/icons-sprite.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/style-071e7bdd7c10fd52fe95.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/vendor-071e7bdd7c10fd52fe95.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/js/locale/zh.js" afterPath="$PROJECT_DIR$/source/js/locale/zh_CN.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/components/Global/AppNav.jsx" afterPath="$PROJECT_DIR$/source/js/components/Global/AppNav.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/components/Global/LeftNav.jsx" afterPath="$PROJECT_DIR$/source/js/components/Global/LeftNav.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/components/Global/Menu.jsx" afterPath="$PROJECT_DIR$/source/js/components/Global/Menu.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/components/Global/RightNav.jsx" afterPath="$PROJECT_DIR$/source/js/components/Global/RightNav.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/index.js" afterPath="$PROJECT_DIR$/source/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/locale/index.js" afterPath="$PROJECT_DIR$/source/js/locale/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/util/index.js" afterPath="$PROJECT_DIR$/source/js/util/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/views/App/app.jsx" afterPath="$PROJECT_DIR$/source/js/views/App/app.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/views/App/appIndex.jsx" afterPath="$PROJECT_DIR$/source/js/views/App/appIndex.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/scss/base/_app.scss" afterPath="$PROJECT_DIR$/source/scss/base/_app.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -71,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeftNav.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeftNav.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/js/components/Global/LeftNav.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="148">
@@ -81,6 +47,16 @@
                 <marker date="1496322231000" expanded="true" signature="302:1506" ph="{...}" />
                 <marker date="1496322231000" expanded="true" signature="317:1506" ph="&lt;div/&gt;" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_app.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/scss/base/_app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="237" column="8" lean-forward="false" selection-start-line="237" selection-start-column="8" selection-end-line="237" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -141,16 +117,6 @@
                 <element signature="e#42#84#0" expanded="false" />
                 <element signature="e#85#126#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="billing.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/js/actions/billing.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="50" column="32" lean-forward="false" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -263,7 +229,6 @@
         <option value="$PROJECT_DIR$/source/js/views/Billing/Info.jsx" />
         <option value="$PROJECT_DIR$/source/js/views/Billing/Bar.js" />
         <option value="$PROJECT_DIR$/source/js/views/Billing/Bar.jsx" />
-        <option value="$PROJECT_DIR$/source/scss/base/_app.scss" />
         <option value="$PROJECT_DIR$/source/mock/pricing.json" />
         <option value="$PROJECT_DIR$/source/js/views/Billing/Withdrawal.js" />
         <option value="$PROJECT_DIR$/source/js/views/Billing/BillingWrapper.jsx" />
@@ -277,6 +242,7 @@
         <option value="$PROJECT_DIR$/source/js/components/Global/AppNav.jsx" />
         <option value="$PROJECT_DIR$/source/js/views/Billing/index.jsx" />
         <option value="$PROJECT_DIR$/source/js/components/Global/LeftNav.jsx" />
+        <option value="$PROJECT_DIR$/source/scss/base/_app.scss" />
       </list>
     </option>
   </component>
@@ -723,12 +689,12 @@
       <updated>1496208195054</updated>
       <workItem from="1496211432837" duration="1635000" />
       <workItem from="1496217731887" duration="20585000" />
-      <workItem from="1496297242238" duration="18582000" />
+      <workItem from="1496297242238" duration="18641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40802000" />
+    <option name="totallyTimeSpent" value="40861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1066,14 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/scss/base/_app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="198" column="16" lean-forward="false" selection-start-line="198" selection-start-column="16" selection-end-line="198" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/mock/pricing.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1210,6 +1168,14 @@
             <marker date="1496322231000" expanded="true" signature="302:1506" ph="{...}" />
             <marker date="1496322231000" expanded="true" signature="317:1506" ph="&lt;div/&gt;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/scss/base/_app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="237" column="8" lean-forward="false" selection-start-line="237" selection-start-column="8" selection-end-line="237" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
