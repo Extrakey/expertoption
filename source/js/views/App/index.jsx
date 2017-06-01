@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import Menu from 'components/Global/Menu';
+import LeftNav from 'components/Global/LeftNav';
+import AppNav from 'components/Global/AppNav';
+import RightNav from 'components/Global/RightNav';
 
 export default class App extends Component {
   static propTypes = {
@@ -13,11 +16,12 @@ export default class App extends Component {
     const { children } = this.props;
 
     return (
-      <div className='App'>
-        <Menu />
-
-        <div className='Page'>
+      <div className='App_Wrapper'>
+        <AppNav />
+        <div className='flex'>
+          <LeftNav />
           { children }
+          <RightNav />
         </div>
       </div>
     );

@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
-import demoIndex from 'views/Index/demoIndex';
-import demoApp from 'views/App';
-import Dashboard from 'views/Dashboard';
-import About from 'views/About';
 import NotFound from 'views/NotFound';
 
 // TO DO
@@ -15,7 +11,7 @@ import Pricing from 'views/Pricing';
 import Education from 'views/Education';
 import Contacts from 'views/Contacts';
 
-import App from 'views/App/app';
+import App from 'views/App';
 import appIndex from 'views/App/appIndex';
 import Billing from 'views/Billing';
 import BillingIndex from 'views/Billing/Billing';
@@ -26,14 +22,12 @@ const publicPath = '/';
 
 export const routeCodes = {
   DASHBOARD: publicPath,
-  DEMO: `${ publicPath }demo`,
-  DEMOINDEX: `${ publicPath }demoindex`,
-  ABOUT: `${ publicPath }about`,
   // TO DO
   PLATFORM: `${ publicPath }platform`,
   PRICING: `${ publicPath }pricing`,
   EDUCATION: `${ publicPath }education`,
   CONTACTS: `${ publicPath }contacts`,
+
   // APP
   APP: `${ publicPath }app`,
   BILLING: `${ publicPath }app/billing`,
@@ -63,12 +57,6 @@ export default class Routes extends Component {
             <Route path={ routeCodes.PAYHISTORY } component={ PayHistory } />
             <Route path={ routeCodes.WITHDRAWAL } component={ Withdrawal } />
           </Route>
-        </Route>
-        <Route path={ routeCodes.DEMO } component={ demoApp }>
-          <IndexRoute component={ Dashboard } />
-          <Route path={ routeCodes.DEMOINDEX } component={ demoIndex } />
-          <Route path={ routeCodes.ABOUT } component={ About } />
-          <Route path='*' component={ NotFound } />
         </Route>
       </Router>
     );
