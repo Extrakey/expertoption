@@ -34,6 +34,8 @@ export const routeCodes = {
   // APP
   APP: `${ publicPath }app`,
   BILLING: `${ publicPath }app/billing`,
+  PAYHISTORY: `${ publicPath }app/billing/payment-history`,
+  WITHDRAWAL: `${ publicPath }app/billing/withdrawal`,
   USER: `${ publicPath }app/user`,
   ANALYTIES: `${ publicPath }app/analytics`,
   PLANTFORMS: `${ publicPath }app/platforms`,
