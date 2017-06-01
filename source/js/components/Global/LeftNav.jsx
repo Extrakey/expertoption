@@ -1,9 +1,6 @@
 /**
  * Created by jiangnan on 17/5/31.
  */
-/**
- * Created by jiangnan on 17/5/31.
- */
 import React, { Component } from 'react';
 import { IndexLink, Link } from 'react-router';
 import { routeCodes } from '../../routes';
@@ -12,12 +9,12 @@ import workAndCoLogoImg from '../../../assets/img/workco-logo.svg';
 export default class Menu extends Component {
   render() {
     return (
-      <div className='Menu-links'>
+      <div className='menu-links'>
        <ul>
          <li>
            <Link
-             activeClassName='Menu-link--active'
-             className='Menu-link'
+             activeClassName='menu-link-active'
+             className='menu-link'
              to={ routeCodes.APP }
            >
              交易
@@ -25,8 +22,8 @@ export default class Menu extends Component {
          </li>
          <li>
            <Link
-             activeClassName='Menu-link--active'
-             className='Menu-link'
+             activeClassName='menu-link-active'
+             className='menu-link'
              to={ routeCodes.BILLING }
            >
              财务管理
@@ -34,8 +31,8 @@ export default class Menu extends Component {
          </li>
          <li>
            <Link
-             activeClassName='Menu-link--active'
-             className='Menu-link'
+             activeClassName='menu-link-active'
+             className='menu-link'
              to={ routeCodes.USER }
            >
              个人资料
@@ -43,8 +40,8 @@ export default class Menu extends Component {
          </li>
          <li>
            <Link
-             activeClassName='Menu-link--active'
-             className='Menu-link'
+             activeClassName='menu-link-active'
+             className='menu-link'
              to={ routeCodes.ANALYTIES }
            >
              市场分析

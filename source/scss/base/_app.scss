@@ -24,15 +24,15 @@ body {
 }
 
 .App {
-  font-size: 1.8rem;
-  padding: 2rem;
+  font-size: 30px;
+  padding: 32px;
 
   @include md {
-    padding: 3rem;
+    padding: 48px;
   }
 
   @include md {
-    padding: 4rem;
+    padding: 64px;
   }
 }
 
@@ -47,28 +47,28 @@ a:hover {
 h1,
 h2,
 h3 {
-  margin: 2rem 0;
+  margin: 32px 0;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 40px;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 32px;
 }
 
 h3 {
-  font-size: 1.7rem;
+  font-size: 20px;
 }
 
 button {
   background: transparent;
-  border-radius: 1.6rem;
-  border: 0.1rem solid $black;
+  border-radius: 24px;
+  border: 1 solid $black;
   cursor: pointer;
-  font-size: 1.5rem;
-  padding: 0.7rem 2rem;
+  font-size: 24px;
+  padding: 10px 20px;
 }
 
 button:disabled {
@@ -84,24 +84,24 @@ button:hover {
   border-bottom: 1px solid $grey-border;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 2rem;
-  margin: 0 auto 2rem;
-  max-width: 60rem;
+  padding-bottom: 32px;
+  margin: 0 auto 32px;
+  max-width: 640px;
 
   @include lg {
-    margin-left: 20rem;
-    margin: 0 0 2rem 20rem;
+    margin-left: 320px;
+    margin: 0 0 32px 320px;
     padding-bottom: 0;
   }
 }
 
-.Menu img {
+.menu img {
   display: block;
 }
 
-.Menu-logo {
-  margin-right: 2rem;
-  width: 6rem;
+.menu-logo {
+  margin-right: 32px;
+  width: 96px;
 
   @include lg {
     position: fixed;
@@ -109,51 +109,51 @@ button:hover {
     top: 0;
     left: 0;
     border-right: 1px solid $grey-border;
-    width: 20rem;
-    padding: 4rem;
+    width: 320px;
+    padding: 64px;
   }
 }
 
-.Menu-links {
+.menu-links {
   @include md {
   }
 }
 
-.Menu-link {
+.menu-link {
   display: inline-block;
   font-family: $font-family-serif;
   font-style: italic;
-  margin-left: 1.5rem;
-  line-height: 3rem;
+  margin-left: 24px;
+  line-height: 48px;
   text-decoration: none;
 
   @include md {
-    margin-left: 3rem;
+    margin-left: 48px;
   }
 
   @include lg {
-    margin: 0 3rem 0 0;
-    line-height: 7.5rem;
+    margin: 0 48px 0 0;
+    line-height: 110px;
   }
 }
 
-.Menu-link--active {
+.menu-link-active {
   color: $black;
 }
 
 .Page {
-  max-width: 60rem;
+  max-width: 960px;
   margin: 0 auto;
 
   @include lg {
-    margin: 0 0 0 20rem;
+    margin: 0 0 0 320px;
   }
 }
 
 .Example {
   background: #F6F8FA;
-  padding: 2rem;
-  border-radius: 0.4rem;
+  padding: 32px;
+  border-radius: 4px;
 }
 
 .Example .Icon {
@@ -165,18 +165,18 @@ button:hover {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 16rem;
-  max-width: 25rem;
+  height: 256px;
+  max-width: 400px;
 }
 
 .ImgExample {
-  max-width: 25rem;
+  max-width: 400px;
 }
 
 hr {
   border: 0;
   border-top: 1px solid $grey-border;
-  margin: 2rem 0;
+  margin: 32px 0;
 }
 
 .flex {

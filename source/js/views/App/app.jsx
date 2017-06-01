@@ -21,6 +21,7 @@ export default class App extends Component {
         <div className='flex'>
           <LeftNav />
           { children }
+          <RightNav />
         </div>
       </div>
     );
