@@ -23,7 +23,8 @@ const initialState = Immutable.fromJS({
     currency: [],
   },
   pricingList: {},
-  withdrawalList: []
+  withdrawalList: [],
+  historyList: []
 });
 
 const actionsMap = {

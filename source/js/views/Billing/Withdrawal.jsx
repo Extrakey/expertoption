@@ -1,9 +1,7 @@
 /**
  * Created by jiangnan on 17/6/1.
  */
-/**
- * Created by jiangnan on 17/5/31.
- */
+
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
