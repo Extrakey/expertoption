@@ -26,7 +26,7 @@ export default class Menu extends Component {
 
   toggleLanguageShow() {
     this.setState({
-      showLanguage: this.state.showLanguage ? false : true
+      showLanguage: !this.state.showLanguage
     })
   }
 
