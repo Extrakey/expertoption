@@ -17,7 +17,7 @@ export default class App extends Component {
     return (
       <div className='App_Wrapper'>
         <AppNav />
-        <div className='flex'>
+        <div className='flex h_100'>
           <LeftNav />
           { children }
           <RightNav />

@@ -37,8 +37,10 @@ ul, li, ol {
 }
 
 .App {
+  height: 100%;
   font-size: 12px;
   padding: 20px  90px 20px 90px;
+  overflow: scroll;
 }
 
 a {
@@ -180,6 +182,7 @@ hr {
 
 #root, .App_Wrapper {
   min-height: 100%;
+  height: 100%;
 }
 
 .container {
@@ -237,11 +240,6 @@ hr {
 .menu-links {
   width: 70px;
   font-size: 14px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  padding-top: 60px;
-  bottom: 0;
   border-right: 1px solid #ccc;
 }
 .menu-link-active {
@@ -273,12 +271,6 @@ hr {
 }
 /* right menu */
 .right-menu {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 70px;
-  bottom: 0;
-  border-left: 1px solid #ccc;
   background-color: #fff;
   z-index: 10;
 }
@@ -294,7 +286,7 @@ hr {
   cursor: pointer;
 }
 .right-menu .right-content {
-  margin-top: 60px;
+  border-left: 1px solid #ccc;
 }
 .right-menu .right-content li {
   width: 70px;
@@ -303,6 +295,10 @@ hr {
   text-align: center;
   font-size: 14px;
   cursor: pointer;
+}
+
+.left-content {
+  width: 200px;
 }
 
 /* 子导航 */
@@ -318,4 +314,8 @@ hr {
   text-align: center;
   font-size: 14px;
   text-decoration: none;
+}
+
+.h_100 {
+  height: 100%
 }
