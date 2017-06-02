@@ -49,6 +49,8 @@ export default class Menu extends Component {
         <div className="language-menu" style={{ display: showLanguage ? 'block' : 'none' }} onClick={ this.setLanguage }>
           <span data-lan="en">English</span>
           <span data-lan="zh_CN">简体中文</span>
+          <span data-lan="zh_TW">繁体中文</span>
+          <span data-lan="ja">日文</span>
         </div>
       </div>
     );

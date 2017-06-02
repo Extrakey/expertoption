@@ -11,6 +11,7 @@ export default class RightMenu extends Component {
   render() {
     return (
       <div className='right-menu'>
+      	<div className="top-btn">X</div>
       	<div className="left-content"></div>
       	<div className="right-content">
       		<ul>

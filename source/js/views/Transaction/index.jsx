@@ -13,7 +13,7 @@ export default class Transaction extends Component {
 
   render() {
     return (
-      <div className='App_Wrapper'>
+      <div className='container'>
         交易
       </div>
     );

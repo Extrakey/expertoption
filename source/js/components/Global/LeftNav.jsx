@@ -12,7 +12,7 @@ export default class Menu extends Component {
   }
   render() {
     return (
-      <div className='menu-links' style={{width: '180px'}}>
+      <div className='menu-links'>
        <ul>
          <li>
            <Link
@@ -69,7 +69,10 @@ export default class Menu extends Component {
            </Link>
          </li>
        </ul>
-        {this.props.children}
+        <div className="menu-bottom">
+          <a>设置</a>
+          <a>退出</a>
+        </div>
       </div>
     );
   }
