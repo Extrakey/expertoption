@@ -36,6 +36,10 @@ import Faq from 'views/Info/Faq';
 import Education from 'views/Info/Education';
 import Terms from 'views/Info/Terms';
 import About from 'views/Info/About';
+import Glossary from 'views/Info/Glossary';
+import Technicalanalysis from 'views/Info/Technicalanalysis';
+import Payment from 'views/Info/Payment';
+import ReturnRefund from 'views/Info/ReturnRefund';
 
 
 const publicPath = '/';
@@ -69,6 +73,10 @@ export const routeCodes = {
   EDUCATION: `${ publicPath }app/info/education`,
   TERMS: `${ publicPath }app/info/terms`,
   ABOUT: `${ publicPath }app/info/about`,
+  GLOSSARY: `${ publicPath }app/info/education/glossary`,
+  TECHNICALANALYSIS: `${ publicPath }app/info/education/technicalanalysis`,
+  PAYMENT: `${ publicPath }app/info/terms/payment`,
+  RETURNREFUND: `${ publicPath }app/info/terms/return-refund`,
 };
 
 export default class Routes extends Component {
@@ -105,6 +113,10 @@ export default class Routes extends Component {
             <Route path={ routeCodes.EDUCATION } component={ Education } />
             <Route path={ routeCodes.TERMS } component={ Terms } />
             <Route path={ routeCodes.ABOUT } component={ About } />
+            <Route path={ routeCodes.GLOSSARY } component={ Glossary } />
+            <Route path={ routeCodes.TECHNICALANALYSIS } component={ Technicalanalysis } />
+            <Route path={ routeCodes.PAYMENT } component={ Payment } />
+            <Route path={ routeCodes.RETURNREFUND } component={ ReturnRefund } />
           </Route>
           </Route>
       </Router>

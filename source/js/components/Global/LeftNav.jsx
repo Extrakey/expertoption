@@ -17,7 +17,6 @@ export default class Menu extends Component {
          <li>
            <Link
              activeClassName='menu-link-active'
-             className='menu-link'
              to={ routeCodes.APP }
            >
              交易
@@ -26,7 +25,6 @@ export default class Menu extends Component {
          <li>
            <Link
              activeClassName='menu-link-active'
-             className='menu-link'
              to={ routeCodes.BILLING }
            >
              财务管理
@@ -35,7 +33,6 @@ export default class Menu extends Component {
          <li>
            <Link
              activeClassName='menu-link-active'
-             className='menu-link'
              to={ routeCodes.USER }
            >
              个人资料
@@ -44,7 +41,6 @@ export default class Menu extends Component {
          <li>
            <Link
              activeClassName='menu-link-active'
-             className='menu-link'
              to={ routeCodes.ANALYTICS }
            >
              市场分析
@@ -53,7 +49,6 @@ export default class Menu extends Component {
          <li>
            <Link
              activeClassName='menu-link-active'
-             className='menu-link'
              to={ routeCodes.PLANTFORMS }
            >
              应用
@@ -62,7 +57,6 @@ export default class Menu extends Component {
          <li>
            <Link
              activeClassName='menu-link-active'
-             className='menu-link'
              to={ routeCodes.INFO }
            >
              帮助
