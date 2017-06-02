@@ -80,7 +80,7 @@ const rules = [
   {
     test: /\.(png|gif|jpg|svg)$/,
     include: imgPath,
-    use: 'url-loader?limit=20480&name=assets/[name]-[hash].[ext]',
+    use: 'file-loader?name=assets/[name]-[hash].[ext]',
   },
 ];
 

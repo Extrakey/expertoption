@@ -20,7 +20,7 @@ export default class Menu extends Component {
         <div className='menu-link'>
            {navData.map(item =>
              <Link
-              activeClassName='menu-link--active'
+              activeClassName='menu-link-active'
               className='menu-link'
               to={ item.url }>
               {item.name}

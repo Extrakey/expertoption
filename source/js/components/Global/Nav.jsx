@@ -8,44 +8,44 @@ export default class Menu extends Component {
   render() {
     return (
       <div className='Menu'>
-        <div className='Menu-links'>
+        <div className='flex'>
           <IndexLink
-            activeClassName='Menu-link--active'
-            className='Menu-link'
+            activeClassName='menu-link-active'
+            className='menu-link'
             to={ routeCodes.DASHBOARD }
           >
             主页
           </IndexLink>
           <Link
-            activeClassName='Menu-link--active'
-            className='Menu-link'
+            activeClassName='menu-link-active'
+            className='menu-link'
             to={ routeCodes.PLATFORM }
           >
             平台
           </Link>
           <Link
-            activeClassName='Menu-link--active'
-            className='Menu-link'
+            activeClassName='menu-link-active'
+            className='menu-link'
             to={ routeCodes.PRICING }
           >
             账户类型
           </Link>
           <Link
-            activeClassName='Menu-link--active'
-            className='Menu-link'
-            to={ routeCodes.EDUCATION }
+            activeClassName='menu-link-active'
+            className='menu-link'
+            to={ routeCodes.TEACH }
           >
             学习资料
           </Link>
           <Link
-            activeClassName='Menu-link--active'
-            className='Menu-link'
+            activeClassName='menu-link-active'
+            className='menu-link'
             to={ routeCodes.CONTACTS }
           >
             关于我们
           </Link>
           <Link
-            activeClassName='Menu-link--active'
+            activeClassName='menu-link-active'
             className='Menu-link'
             to='/app'
           >

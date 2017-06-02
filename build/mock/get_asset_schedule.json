@@ -1,0 +1,317 @@
+[
+  {
+    "name": "EUR/USD",
+    "startTime": 0,
+    "endTime": 0,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "GBP/USD",
+    "startTime": 0,
+    "endTime": 0,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "USD/JPY",
+    "startTime": 0,
+    "endTime": 0,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "USD/CNH",
+    "startTime": 0,
+    "endTime": 8,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "S&P500",
+    "startTime": 13,
+    "endTime": 18,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "NASDAQ",
+    "startTime": 14,
+    "endTime": 18,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "USD/JPY LONG",
+    "startTime": 0,
+    "endTime": 0,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Dow Jones",
+    "startTime": 14,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "DAX 30",
+    "startTime": 7,
+    "endTime": 14,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "AUD/CAD LONG",
+    "startTime": 0,
+    "endTime": 0,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "AUD/USD LONG",
+    "startTime": 0,
+    "endTime": 0,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "USD/ZAR",
+    "startTime": 5,
+    "endTime": 18,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "FTSE 100",
+    "startTime": 7,
+    "endTime": 14,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "USD/TRY",
+    "startTime": 7,
+    "endTime": 15,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "EUR/USD LONG",
+    "startTime": 0,
+    "endTime": 0,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Facebook",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Apple",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Amazon",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Weibo",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Microsoft",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Tesla",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Lockheed Martin ",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Valeant ",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Bitcoin",
+    "startTime": 0,
+    "endTime": 0,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "LiteCoin",
+    "startTime": 0,
+    "endTime": 0,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "EUR/CHF",
+    "startTime": 9,
+    "endTime": 16,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Allergan",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "AUD/USD",
+    "startTime": 0,
+    "endTime": 0,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "EUR/AUD",
+    "startTime": 7,
+    "endTime": 16,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "YUM",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "IBM",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Yahoo",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Mcdonalds",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "USD/NOK",
+    "startTime": 0,
+    "endTime": 0,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "CHF/JPY",
+    "startTime": 9,
+    "endTime": 16,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Disney",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Ford",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Gold",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Citigroup",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Goldman Sachs",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Coca-Cola",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Alibaba",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Baidu",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Netflix",
+    "startTime": 13,
+    "endTime": 20,
+    "otc": false,
+    "asset_group_id": 0
+  },
+  {
+    "name": "Brent Oil",
+    "startTime": 0,
+    "endTime": 0,
+    "otc": true,
+    "asset_group_id": 0
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "ogUrl": "https://zh-cn.expertoption.com",
+  "openChat": false,
+  "ogImg": "https://expertoption.com/images/og-picture.png",
+  "languages": {
+    "ZH-HANS": "简体中文",
+    "ZH-HANT": "繁體中文",
+    "HI": "हिन्दी",
+    "TH": "ไทย",
+    "IT": "Italiano",
+    "ES": "Español",
+    "PT": "Portuguese",
+    "DE": "Deutsch",
+    "RU": "Русский",
+    "EN": "English",
+    "ID": "Indonesian",
+    "KO": "한국어",
+    "MS": "Malaysia",
+    "NN": "Norsk",
+    "FIL": "Filipino"
+  },
+  "currentLocale": "zh-Hans",
+  "langForPartners": "en",
+  "maintenance": false,
+  "demoValue": 8888,
+  "canonicalUrl": {
+    "canonical": false,
+    "alternates": [
+      null,
+      {
+        "url": "https://zh-cn.expertoption.com",
+        "language": "zh-Hans"
+      },
+      {
+        "url": "https://zh-tw.expertoption.com",
+        "language": "zh-Hant"
+      },
+      {
+        "url": "https://th.expertoption.com",
+        "language": "th"
+      },
+      {
+        "url": "https://ko.expertoption.com",
+        "language": "ko"
+      },
+      {
+        "url": "https://id.expertoption.com",
+        "language": "id"
+      },
+      {
+        "url": "https://ms.expertoption.com",
+        "language": "ms"
+      },
+      {
+        "url": "https://hi.expertoption.com",
+        "language": "hi"
+      },
+      {
+        "url": "https://fil.expertoption.com",
+        "language": "fil"
+      },
+      {
+        "url": "https://es.expertoption.com",
+        "language": "es"
+      },
+      {
+        "url": "https://pt.expertoption.com",
+        "language": "pt"
+      },
+      {
+        "url": "https://ru.expertoption.com",
+        "language": "ru"
+      }
+    ],
+    "path": "/platform/faq"
+  },
+  "mobile": {
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
+    "_cache": {
+
+    },
+    "maxPhoneWidth": 600
+  },
+  "mobileSplash": false,
+  "mobileSplashHide": false,
+  "isChinaLanguage": true,
+  "currentDomain": "expertoption.com",
+  "gtmTagId": "GTM-TJZ63X",
+  "abVersion": "",
+  "currencySymbol": "¥",
+  "currencyId": 5,
+  "seo": {
+    "title": "SEO.FAQ.TITLE",
+    "desc": "SEO.FAQ.DESC",
+    "keywords": "SEO.FAQ.KEYWORDS"
+  },
+  "faqData": [
+    {
+      "title": "What is a Binary Option?",
+      "desc": "A binary option, also referred to as a digital option is an option in which payout is determined at the onset of the contract. It pays a fixed amount of cash if the option expires in-the-money, independent of themagnitude by which the price of the underlying asset moves. ExpertOption offers you up to 95% payout when the option expires in-the-money, and up to 50% return if the option expires out-of-the-money. The option cannot be sold before its expiration."
+    },
+    {
+      "title": "Do I need to download any software to my PC for trading?",
+      "desc": "No, you don't need to download anything. All you need to do is to open an account on the website of ExpertOption."
+    },
+    {
+      "title": "Is there a demo account?",
+      "desc": "We offer you to use a demo account with the balance of 10 000 virtual money in order to be able to evaluate the benefits of the trading platform."
+    },
+    {
+      "title": "How my profit is calculated?",
+      "desc": "Your profit from a trade can be up to 95% of the investment amount. Profit depends on current situation of the market."
+    },
+    {
+      "title": "What is the minimum amount that I can invest?",
+      "desc": "The minimum amount to invest in a single option is $1."
+    },
+    {
+      "title": "What is a minimum deposit amount?",
+      "desc": "The minimum deposit amount is $50."
+    },
+    {
+      "title": "Are there any commissions upon making transactions with my trading account?",
+      "desc": "Our company does not take any commissions on your transactions. But such commissions can be taken by the payment systems or payment aggregator."
+    },
+    {
+      "title": "What is the minimum withdrawal amount?",
+      "desc": "Minimum withdrawal amount is 10 USD."
+    },
+    {
+      "title": "How much time does it take to withdraw funds?",
+      "desc": "Withdrawal requests are processed in 2 working days."
+    },
+    {
+      "title": "Do i need any documents to withdraw funds?",
+      "desc": "Company representative can ask you to send scanned documents, depending on the withdraw type. All the information will be sent to your e-mail."
+    },
+    {
+      "title": "How can I close my account?",
+      "desc": "In case you wish to stop using your account, please contact our Clients support department via email help@expertoption.com"
+    }
+  ],
+  "currentSection": "platform",
+  "currentSectionSub": "faq",
+  "sectionHeader": "FAQ"
+}
