@@ -5,6 +5,8 @@ export const TEST_ASYNC_ACTION_START = 'TEST_ASYNC_ACTION_START';
 export const TEST_ASYNC_ACTION_ERROR = 'TEST_ASYNC_ACTION_ERROR';
 export const TEST_ASYNC_ACTION_SUCCESS = 'TEST_ASYNC_ACTION_SUCCESS';
 export const COUNTER_DOUBLE_ASYNC = 'COUNTER_DOUBLE_ASYNC';
+export const SHOW_SETTING = 'SHOW_SETTING';
+export const HIDE_SETTING = 'HIDE_SETTING';
 
 // Test action
 
@@ -33,6 +35,18 @@ function testAsyncError(error) {
   return {
     type: TEST_ASYNC_ACTION_ERROR,
     error,
+  };
+}
+
+export function showSetting() {
+  return {
+    type: SHOW_SETTING,
+  };
+}
+
+export function hideSetting() {
+  return {
+    type: HIDE_SETTING,
   };
 }
 

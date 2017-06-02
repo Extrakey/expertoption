@@ -181,7 +181,7 @@ export default class App extends Component {
             <input type="text" value={haveBonus ? '100%' : 0 }/>
             <span>{currency[currencyOn] ? currency[currencyOn].min_deposit : 0}</span>
           </div>
-          <button style={activeStyle[activeIndex]}> 继续</button>
+          <button className="button" style={activeStyle[activeIndex]}> 继续</button>
           <div>账户等级 <span>存入${money}，获得GOLD地位</span></div>
           <Bar color={methodsColor} percent={percent}/>
         </div>

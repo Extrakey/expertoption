@@ -7,10 +7,8 @@ import { IndexLink, Link } from 'react-router';
 import { routeCodes } from '../../routes';
 
 export default class Menu extends Component {
-  static propTypes = {
-    children: PropTypes.object,
-  }
   render() {
+    const {showSetting, logout} = this.props
     return (
       <div className='menu-links'>
        <ul>
@@ -64,8 +62,8 @@ export default class Menu extends Component {
          </li>
        </ul>
         <div className="menu-bottom">
-          <a>设置</a>
-          <a>退出</a>
+          <div onClick={showSetting}>设置</div>
+          <div onClick={logout}>退出</div>
         </div>
       </div>
     );

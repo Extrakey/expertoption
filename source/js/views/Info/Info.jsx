@@ -26,7 +26,7 @@ export default class App extends Component {
           <div className="flex flex1 column">
             <h5>客服支持</h5>
             <p>我们在线</p>
-            <button onClick={::this.showIm}>在线客服</button>
+            <button className="button" onClick={::this.showIm}>在线客服</button>
           </div>
         </div>
         <div className="flex flex1 column">

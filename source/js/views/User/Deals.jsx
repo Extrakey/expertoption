@@ -37,7 +37,7 @@ export default class App extends Component {
           :
           <div>
             <h5>您的支付记录将在此显示</h5>
-            <Link to={routeCodes.APP}><button>交易</button></Link>
+            <Link to={routeCodes.APP}><button className="button">交易</button></Link>
           </div>
         }
       </div>
