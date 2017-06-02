@@ -6,6 +6,7 @@ import { IndexLink, Link } from 'react-router';
 import { routeCodes } from '../../routes';
 import workAndCoLogoImg from '../../../assets/img/workco-logo.svg';
 import { changeURLPar } from "../../util";
+import { FormattedMessage } from 'react-intl'
 
 const style = {
   menuLinks: {
@@ -41,7 +42,7 @@ export default class Menu extends Component {
     return (
       <div className='app-navs'>
         <img src="../../../assets/img/logo.jpg" width={40} alt="logo"/>
-        <span onClick={ this.toggleLanguageShow }>切换语言</span>
+        <span onClick={ this.toggleLanguageShow }><FormattedMessage id="changeLanguage" /></span>
         <span>全屏</span>
         <span>学习资料</span>
         <span>声音</span>

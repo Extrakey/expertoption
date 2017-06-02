@@ -1,4 +1,5 @@
 const en_US = {
-  'test': "Test",
+	'test': "Test",
+  'changeLanguage': "Change Language",
 }
 export default en_US;
