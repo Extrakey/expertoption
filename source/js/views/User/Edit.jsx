@@ -14,22 +14,9 @@ export default class App extends Component {
   }
 
   render() {
-    const navData = [{
-        url: routeCodes.BILLING,
-        name: '个人资料'
-      }, {
-      url: routeCodes.PAYHISTORY,
-      name: '交易日志'
-      }, {
-        url: routeCodes.WITHDRAWAL,
-        name: '编辑个人资料'
-      }
-    ]
-    const {children} = this.props
     return (
       <div className='App flex column flex1'>
-        <TabNav navData={navData}/>
-        { children }
+        编辑个人资料
       </div>
     );
   }

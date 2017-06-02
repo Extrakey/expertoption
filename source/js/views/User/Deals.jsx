@@ -1,35 +1,45 @@
 /**
- * Created by jiangnan on 17/5/31.
+ * Created by jiangnan on 17/6/1.
  */
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 import PropTypes from 'prop-types';
-import { routeCodes } from '../../routes';
-import TabNav from 'components/Global/TabNav';
+import * as userAction from 'actions/user';
 import Radium from 'radium'
+import { Link } from 'react-router'
+import { routeCodes } from '../../routes';
 
+@connect(state => ({
+  dealsList: state.user.get('dealsList').toJS(),
+}), dispatch => bindActionCreators(userAction, dispatch))
 @Radium
 export default class App extends Component {
   static propTypes = {
-    children: PropTypes.object,
+    dealsList: PropTypes.array,
+  }
+
+  constructor(){
+    super()
+  }
+
+  componentDidMount() {
+    //this.props.deals()
   }
 
   render() {
-    const navData = [{
-        url: routeCodes.BILLING,
-        name: '个人资料'
-      }, {
-      url: routeCodes.PAYHISTORY,
-      name: '交易日志'
-      }, {
-        url: routeCodes.WITHDRAWAL,
-        name: '编辑个人资料'
-      }
-    ]
-    const {children} = this.props
     return (
-      <div className='App flex column flex1'>
-        <TabNav navData={navData}/>
-        { children }
+      <div>
+        {this.props.dealsList.length ? this.props.dealsList.map(item =>
+          <div>
+
+          </div>)
+          :
+          <div>
+            <h5>您的支付记录将在此显示</h5>
+            <Link to={routeCodes.APP}><button>交易</button></Link>
+          </div>
+        }
       </div>
     );
   }
