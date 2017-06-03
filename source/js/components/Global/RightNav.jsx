@@ -6,6 +6,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { IndexLink, Link } from 'react-router';
 import { routeCodes } from '../../routes';
+import NoData from './NoData'
 
 export default class RightMenu extends Component {
 
@@ -20,30 +21,41 @@ export default class RightMenu extends Component {
     }
   }
 
-  toggleRightNav() {
+  toggleRightNav(index) {
     this.setState({
-      showRightNav: !this.state.showRightNav
+      showRightNav: index === this.state.rightNavIndex ? !this.state.showRightNav : this.state.showRightNav,
+      rightNavIndex: index
     })
   }
 
   render() {
-    const {showRightNav} = this.state
+    const {showRightNav, rightNavIndex} = this.state
+    console.log(showRightNav && rightNavIndex === 0)
     return (
       <div className='right-menu'>
       	<div className="top-btn" onClick={::this.toggleRightNav}> {showRightNav ? 'X' :  '打开'}</div>
         <div className="flex h_100">
-          <div className="left-content" style={showRightNav ? {display: 'block'} :{display: 'none'}}>
-            1111
-          </div>
+          {showRightNav && rightNavIndex === 0 &&
+            <div className="left-content">
+              <NoData linkTo={routeCodes.APP} buttonText="交易" title="您最近的交易将在这里显示" />
+            </div>}
+
+          {showRightNav && rightNavIndex === 1 &&
+          <div className="left-content">
+            2222
+          </div> }
+
+          {showRightNav && rightNavIndex === 2 &&
+          <div className="left-content">
+            3333
+          </div>}
+          
           <div className="right-content">
             <ul>
-              <li>交易</li>
-              <li>趋势</li>
-              <li>专家</li>
+              {['交易', '趋势','专家' ].map((item, index) => <li onClick={() => this.toggleRightNav(index)}>{item}</li>)}
             </ul>
           </div>
         </div>
-
       </div>
     );
   }

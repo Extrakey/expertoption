@@ -9,6 +9,7 @@ import * as userAction from 'actions/user';
 import Radium from 'radium'
 import { Link } from 'react-router'
 import { routeCodes } from '../../routes';
+import NoData from 'components/Global/NoData'
 
 @connect(state => ({
   dealsList: state.user.get('dealsList').toJS(),
@@ -35,10 +36,7 @@ export default class App extends Component {
 
           </div>)
           :
-          <div>
-            <h5>您的支付记录将在此显示</h5>
-            <Link to={routeCodes.APP}><button className="button">交易</button></Link>
-          </div>
+          <NoData linkTo={routeCodes.APP} buttonText="交易" title="您的支付记录将在此显示"/>
         }
       </div>
     );

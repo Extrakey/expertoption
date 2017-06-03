@@ -9,6 +9,7 @@ import * as billingAction from 'actions/billing';
 import Radium from 'radium'
 import { Link } from 'react-router'
 import { routeCodes } from '../../routes';
+import NoData from 'components/Global/NoData'
 
 @connect(state => ({
   historyList: state.billing.get('historyList').toJS(),
@@ -35,10 +36,7 @@ export default class App extends Component {
 
           </div>)
           :
-          <div>
-            <h5>您的支付记录将在此显示</h5>
-            <Link to={routeCodes.BILLING}><button className="button">入金</button></Link>
-          </div>
+          <NoData linkTo={routeCodes.BILLING} buttonText="入金" title="您的支付记录将在此显示"/>
         }
       </div>
     );

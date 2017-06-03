@@ -36,10 +36,16 @@ export default class App extends Component {
 
   render() {
     const { title, desc, activeStyle, onClick, imgSrc, itemStyle } = this.props;
-
+    let imgText
+    if (imgSrc){
+      const url = `../../../assets/img/${imgSrc}.png`
+      // TO DO
+      // imgText = <img src={require(url)} alt={imgSrc} />
+      imgText = <img src={require('../../../assets/img/card.png')} alt={imgSrc} />
+    }
     return (
       <div className="flex column" style={[style.payWrapper, itemStyle, activeStyle]} onClick={onClick}>
-        {imgSrc && <img src={`../../assets/img/${imgSrc}.png`} alt={imgSrc} />}
+        {imgText}
         {title && <h5>{title}</h5>}
         {desc && <p style={style.desc}>{desc}</p>}
       </div>
