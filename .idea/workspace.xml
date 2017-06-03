@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef9124b-be2a-4a3b-b08f-e2e2b7de31f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/views/Billing/Bar.jsx" afterPath="$PROJECT_DIR$/source/js/views/Billing/Bar.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/views/Billing/Withdrawal.jsx" afterPath="$PROJECT_DIR$/source/js/views/Billing/Withdrawal.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/views/User/User.jsx" afterPath="$PROJECT_DIR$/source/js/views/User/User.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/views/User/Edit.jsx" afterPath="$PROJECT_DIR$/source/js/views/User/Edit.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,15 +49,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/js/views/User/User.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="54" column="59" lean-forward="false" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
+            <state relative-caret-position="165">
+              <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#43#84#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Edit.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/js/views/User/Edit.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,16 +102,6 @@
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RightNav.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/js/components/Global/RightNav.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -200,7 +198,6 @@
         <option value="$PROJECT_DIR$/source/js/reducers/billing.js" />
         <option value="$PROJECT_DIR$/source/js/views/Billing/Withdrawal.jsx" />
         <option value="$PROJECT_DIR$/source/js/reducers/user.js" />
-        <option value="$PROJECT_DIR$/source/js/views/User/Edit.jsx" />
         <option value="$PROJECT_DIR$/source/js/components/Global/Modal.jsx.js" />
         <option value="$PROJECT_DIR$/source/js/components/Global/Confirm.jsx.js" />
         <option value="$PROJECT_DIR$/source/mock/assets.json" />
@@ -242,6 +239,7 @@
         <option value="$PROJECT_DIR$/source/js/views/App/index.jsx" />
         <option value="$PROJECT_DIR$/source/js/views/Billing/Bar.jsx" />
         <option value="$PROJECT_DIR$/source/js/views/User/User.jsx" />
+        <option value="$PROJECT_DIR$/source/js/views/User/Edit.jsx" />
       </list>
     </option>
   </component>
@@ -685,7 +683,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83463000" />
+    <option name="totallyTimeSpent" value="84030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -745,14 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/views/User/Edit.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1171,12 +1161,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/js/views/User/User.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="54" column="59" lean-forward="false" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
+        <state relative-caret-position="165">
+          <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#43#84#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/views/User/Edit.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
