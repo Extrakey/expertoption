@@ -7,6 +7,8 @@ import PropTypes from 'prop-types';
 import { IndexLink, Link } from 'react-router';
 import { routeCodes } from '../../routes';
 import NoData from './NoData'
+import Trending from './Trending'
+import Expert from './Expert'
 
 export default class RightMenu extends Component {
 
@@ -42,14 +44,14 @@ export default class RightMenu extends Component {
 
           {showRightNav && rightNavIndex === 1 &&
           <div className="left-content">
-            2222
+            <Trending />
           </div> }
 
           {showRightNav && rightNavIndex === 2 &&
           <div className="left-content">
-            3333
+            <Expert />
           </div>}
-          
+
           <div className="right-content">
             <ul>
               {['交易', '趋势','专家' ].map((item, index) => <li onClick={() => this.toggleRightNav(index)}>{item}</li>)}

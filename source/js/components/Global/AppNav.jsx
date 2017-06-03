@@ -52,6 +52,7 @@ export default class Menu extends Component {
           <span data-lan="zh_TW">繁体中文</span>
           <span data-lan="ja">日文</span>
         </div>
+        <Link to={routeCodes.BILLING}><button className="button">Deposit</button></Link>
       </div>
     );
   }
