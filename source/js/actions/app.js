@@ -7,6 +7,10 @@ export const TEST_ASYNC_ACTION_SUCCESS = 'TEST_ASYNC_ACTION_SUCCESS';
 export const COUNTER_DOUBLE_ASYNC = 'COUNTER_DOUBLE_ASYNC';
 export const SHOW_SETTING = 'SHOW_SETTING';
 export const HIDE_SETTING = 'HIDE_SETTING';
+export const TOGGLE_SOUND = 'TOGGLE_SOUND';
+export const TOGGLE_CHAT = 'TOGGLE_CHAT';
+export const SHOW_LOGOUT = 'SHOW_LOGOUT';
+export const HIDE_LOGOUT = 'HIDE_LOGOUT';
 
 // Test action
 
@@ -47,6 +51,30 @@ export function showSetting() {
 export function hideSetting() {
   return {
     type: HIDE_SETTING,
+  };
+}
+
+export function toggleSound() {
+  return {
+    type: TOGGLE_SOUND,
+  };
+}
+
+export function toggleChat() {
+  return {
+    type: TOGGLE_CHAT,
+  };
+}
+
+export function showLogout() {
+  return {
+    type: SHOW_LOGOUT,
+  };
+}
+
+export function hideLogout() {
+  return {
+    type: HIDE_LOGOUT,
   };
 }
 

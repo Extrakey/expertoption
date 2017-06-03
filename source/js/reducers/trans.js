@@ -2,10 +2,10 @@ import Immutable from 'immutable'
 
 import {
   TEST_ACTION,
-  TEST_ASYNC_ACTION_START,
-  TEST_ASYNC_ACTION_ERROR,
+  GET_TRANS_START,
+  GET_TRANS_ERROR,
   GET_TRANS_SUCCESS
-} from 'actions/app';
+} from 'actions/transaction';
 
 const initialState = Immutable.fromJS({
   counter: 0,
@@ -24,13 +24,13 @@ const actionsMap = {
   },
 
   // Async action
-  [TEST_ASYNC_ACTION_START]: (state) => {
+  [GET_TRANS_START]: (state) => {
     return state.merge({
       asyncLoading: true,
       asyncError: null,
     });
   },
-  [TEST_ASYNC_ACTION_ERROR]: (state, action) => {
+  [GET_TRANS_ERROR]: (state, action) => {
     return state.merge({
       asyncLoading: false,
       asyncError: action.data,

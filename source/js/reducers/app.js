@@ -7,7 +7,11 @@ import {
   TEST_ASYNC_ACTION_SUCCESS,
   COUNTER_DOUBLE_ASYNC,
   SHOW_SETTING,
-  HIDE_SETTING
+  HIDE_SETTING,
+  TOGGLE_SOUND,
+  SHOW_LOGOUT,
+  HIDE_LOGOUT,
+  TOGGLE_CHAT,
 } from 'actions/app';
 
 const initialState = Map({
@@ -15,7 +19,10 @@ const initialState = Map({
   asyncLoading: false,
   asyncError: null,
   asyncData: null,
-  showSetting: false
+  isShowSetting: false,
+  isShowChat: false,
+  showLogout: false,
+  sound: false
 });
 
 const actionsMap = {
@@ -54,12 +61,32 @@ const actionsMap = {
   },
   [SHOW_SETTING]: (state) => {
     return state.merge({
-      showSetting: true,
+      isShowSetting: true,
     });
   },
   [HIDE_SETTING]: (state) => {
     return state.merge({
-      showSetting: false,
+      isShowSetting: false,
+    });
+  },
+  [TOGGLE_SOUND]: (state) => {
+    return state.merge({
+      sound: !state.get('sound'),
+    });
+  },
+  [TOGGLE_CHAT]: (state) => {
+    return state.merge({
+      isShowChat: !state.get('isShowChat'),
+    });
+  },
+  [SHOW_LOGOUT]: (state) => {
+    return state.merge({
+      showLogout: true,
+    });
+  },
+  [HIDE_LOGOUT]: (state) => {
+    return state.merge({
+      showLogout: false,
     });
   },
 };

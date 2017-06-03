@@ -8,16 +8,16 @@ import { routeCodes } from '../../routes';
 import TabNav from './TabNav'
 import * as appAction from 'actions/app';
 
-export default class Modal extends Component {
+export default class Confirm extends Component {
   render() {
-    const { title } = this.props
+    const { title, isShow, hideLogout, sure } = this.props
     return (
-      <div className="wrapper_black" onClick={hide}>
-        <div>
-          <h4>{title} <span>关闭</span></h4>
+      <div className={ isShow ? "wrapper_black" : "hide"} onClick={hideLogout}>
+        <div className="wrapper_white">
+          <h4>{title} <span onClick={hideLogout}>关闭</span></h4>
           <div>
-            <button>确定</button>
-            <button>取消</button>
+            <button onClick={sure}>确定</button>
+            <button onClick={hideLogout}>取消</button>
           </div>
         </div>
       </div>

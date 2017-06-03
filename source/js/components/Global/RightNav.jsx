@@ -24,15 +24,21 @@ export default class RightMenu extends Component {
   }
 
   toggleRightNav(index) {
+    let showRightNav
+    if (this.state.showRightNav) {
+      showRightNav = index === this.state.rightNavIndex ? !this.state.showRightNav : this.state.showRightNav
+    } else {
+      showRightNav = true
+    }
     this.setState({
-      showRightNav: index === this.state.rightNavIndex ? !this.state.showRightNav : this.state.showRightNav,
+      showRightNav,
       rightNavIndex: index
     })
   }
 
   render() {
     const {showRightNav, rightNavIndex} = this.state
-    console.log(showRightNav && rightNavIndex === 0)
+    console.log(showRightNav, rightNavIndex)
     return (
       <div className='right-menu'>
       	<div className="top-btn" onClick={::this.toggleRightNav}> {showRightNav ? 'X' :  '打开'}</div>
@@ -54,7 +60,7 @@ export default class RightMenu extends Component {
 
           <div className="right-content">
             <ul>
-              {['交易', '趋势','专家' ].map((item, index) => <li onClick={() => this.toggleRightNav(index)}>{item}</li>)}
+              {['交易', '趋势','专家' ].map((item, index) => <li key={index} onClick={() => this.toggleRightNav(index)}>{item}</li>)}
             </ul>
           </div>
         </div>

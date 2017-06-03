@@ -6,6 +6,9 @@ import { IndexLink, Link } from 'react-router';
 import { routeCodes } from '../../routes';
 import { changeURLPar } from "../../util";
 import { FormattedMessage } from 'react-intl'
+import * as appAction from 'actions/app';
+import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux'
 
 const style = {
   menuLinks: {
@@ -13,8 +16,10 @@ const style = {
   },
 }
 
-export default class Menu extends Component {
-
+@connect(state => ({
+  app: state.app.toJS(),
+}), dispatch => bindActionCreators(appAction, dispatch))
+export default class AppNav extends Component {
   constructor(){
     super()
     this.toggleLanguageShow = this.toggleLanguageShow.bind(this)
@@ -37,6 +42,7 @@ export default class Menu extends Component {
   }
 
   render() {
+    const { app: {sound}, toggleSound, toggleChat } = this.props
     const { showLanguage } = this.state
     return (
       <div className='app-navs'>
@@ -44,8 +50,9 @@ export default class Menu extends Component {
         <span onClick={ this.toggleLanguageShow }><FormattedMessage id="changeLanguage" /></span>
         <span>全屏</span>
         <span>学习资料</span>
-        <span>声音</span>
+        <span onClick={toggleSound}>声音{sound ? '开' :'关'}</span>
         <span>定位</span>
+        <span onClick={toggleChat}>live chart</span>
         <div className="language-menu" style={{ display: showLanguage ? 'block' : 'none' }} onClick={ this.setLanguage }>
           <span data-lan="en">English</span>
           <span data-lan="zh_CN">简体中文</span>

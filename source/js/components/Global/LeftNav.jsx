@@ -8,7 +8,7 @@ import { routeCodes } from '../../routes';
 
 export default class Menu extends Component {
   render() {
-    const {showSetting, logout} = this.props
+    const {showSetting, showLogout} = this.props
     return (
       <div className='menu-links'>
        <ul>
@@ -63,7 +63,7 @@ export default class Menu extends Component {
        </ul>
         <div className="menu-bottom">
           <div onClick={showSetting}>设置</div>
-          <div onClick={logout}>退出</div>
+          <div onClick={showLogout}>退出</div>
         </div>
       </div>
     );

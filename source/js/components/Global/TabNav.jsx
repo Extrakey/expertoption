@@ -13,13 +13,14 @@ export default class Menu extends Component {
   }
 
   render() {
-    const { navData } = this.props
-    console.log(navData, 'navDatanavData')
+    const { navData, onClick } = this.props
     return (
       <div className='Menu'>
         <div className='menu-link'>
-           {navData.map(item =>
+           {navData.map((item, index) =>
              <Link
+              key={index}
+              onClick={(e) => onClick(index, e)}
               activeClassName='menu-link-active'
               className='menu-link'
               to={ item.url }>
