@@ -369,3 +369,17 @@ hr {
     height: 50%;
   }
 }
+.help {
+  width: 500px;
+  height: 300px;
+  background: #fff;
+  overflow: hidden;
+  .help_inner{
+    height: 200px;
+    display: flex;
+    width: 300%;
+    div {
+      flex: 1;
+    }
+  }
+}

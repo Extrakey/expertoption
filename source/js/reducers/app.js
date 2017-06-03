@@ -12,6 +12,7 @@ import {
   SHOW_LOGOUT,
   HIDE_LOGOUT,
   TOGGLE_CHAT,
+  TOGGLE_HELP,
 } from 'actions/app';
 
 const initialState = Map({
@@ -22,6 +23,7 @@ const initialState = Map({
   isShowSetting: false,
   isShowChat: false,
   showLogout: false,
+  isShowHelp: false,
   sound: false
 });
 
@@ -81,12 +83,17 @@ const actionsMap = {
   },
   [SHOW_LOGOUT]: (state) => {
     return state.merge({
-      showLogout: true,
+      isShowLogout: true,
     });
   },
   [HIDE_LOGOUT]: (state) => {
     return state.merge({
-      showLogout: false,
+      isShowLogout: false,
+    });
+  },
+  [TOGGLE_HELP]: (state) => {
+    return state.merge({
+      isShowHelp: !state.get('isShowHelp'),
     });
   },
 };

@@ -20,7 +20,6 @@ export default class Chat extends Component {
 
   render() {
     const { app: {isShowChat}, toggleChat } = this.props
-    console.log(isShowChat, 'isShowChatisShowChat')
     return (
       <div className={ isShowChat ? "chat" : "hide"}>
           <p onClick={toggleChat}>关闭</p>

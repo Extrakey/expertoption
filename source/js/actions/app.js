@@ -11,6 +11,7 @@ export const TOGGLE_SOUND = 'TOGGLE_SOUND';
 export const TOGGLE_CHAT = 'TOGGLE_CHAT';
 export const SHOW_LOGOUT = 'SHOW_LOGOUT';
 export const HIDE_LOGOUT = 'HIDE_LOGOUT';
+export const TOGGLE_HELP = 'TOGGLE_HELP';
 
 // Test action
 
@@ -75,6 +76,12 @@ export function showLogout() {
 export function hideLogout() {
   return {
     type: HIDE_LOGOUT,
+  };
+}
+
+export function toggleHelp() {
+  return {
+    type: TOGGLE_HELP,
   };
 }
 

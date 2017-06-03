@@ -9,6 +9,7 @@ import RightNav from 'components/Global/RightNav';
 import Modal from 'components/Global/Modal';
 import Confirm from 'components/Global/Confirm';
 import Chat from 'components/Global/Chat';
+import Help from 'components/Global/Help';
 import { routeCodes } from '../../routes';
 import { browserHistory } from 'react-router'
 
@@ -36,8 +37,9 @@ export default class App extends Component {
           { children }
           <RightNav />
           <Modal />
-          <Confirm title='确认退出？' isShow={app.showLogout} hideLogout={hideLogout} sure={::this.sure} />
+          <Confirm title='确认退出？' isShow={app.isShowLogout} hideLogout={hideLogout} sure={::this.sure} />
           <Chat />
+          <Help />
         </div>
       </div>
     );

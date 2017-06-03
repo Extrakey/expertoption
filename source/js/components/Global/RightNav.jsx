@@ -38,7 +38,6 @@ export default class RightMenu extends Component {
 
   render() {
     const {showRightNav, rightNavIndex} = this.state
-    console.log(showRightNav, rightNavIndex)
     return (
       <div className='right-menu'>
       	<div className="top-btn" onClick={::this.toggleRightNav}> {showRightNav ? 'X' :  '打开'}</div>

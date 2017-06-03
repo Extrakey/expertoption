@@ -42,14 +42,14 @@ export default class AppNav extends Component {
   }
 
   render() {
-    const { app: {sound}, toggleSound, toggleChat } = this.props
+    const { app: {sound}, toggleSound, toggleChat, toggleHelp } = this.props
     const { showLanguage } = this.state
     return (
       <div className='app-navs'>
         <img src={require('../../../assets/img/logo.jpg')} width={40} alt="logo"/>
         <span onClick={ this.toggleLanguageShow }><FormattedMessage id="changeLanguage" /></span>
         <span>全屏</span>
-        <span>学习资料</span>
+        <span onClick={toggleHelp}>如何交易</span>
         <span onClick={toggleSound}>声音{sound ? '开' :'关'}</span>
         <span>定位</span>
         <span onClick={toggleChat}>live chart</span>
