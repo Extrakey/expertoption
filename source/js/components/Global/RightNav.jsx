@@ -6,7 +6,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { IndexLink, Link } from 'react-router';
 import { routeCodes } from '../../routes';
-import workAndCoLogoImg from '../../../assets/img/workco-logo.svg';
 
 export default class RightMenu extends Component {
 

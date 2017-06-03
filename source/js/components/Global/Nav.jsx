@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { IndexLink, Link } from 'react-router';
 import { routeCodes } from '../../routes';
-import workAndCoLogoImg from '../../../assets/img/workco-logo.svg';
 
 export default class Menu extends Component {
 
