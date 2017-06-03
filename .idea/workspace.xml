@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef9124b-be2a-4a3b-b08f-e2e2b7de31f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/views/User/Edit.jsx" afterPath="$PROJECT_DIR$/source/js/views/User/Edit.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/components/Global/RightNav.jsx" afterPath="$PROJECT_DIR$/source/js/components/Global/RightNav.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,11 +62,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Edit.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Edit.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/js/views/User/Edit.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RightNav.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/js/components/Global/RightNav.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -90,18 +100,6 @@
             <state relative-caret-position="-1019">
               <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/js/reducers/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="90" column="18" lean-forward="false" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -142,7 +140,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>TEST_ASYNC_ACTION_ERROR</find>
       <find>showSetting</find>
       <find>c</find>
       <find>conn</find>
@@ -172,6 +169,7 @@
       <find>定位</find>
       <find>Bar</find>
       <find>NoData</find>
+      <find>toggleRightNav</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/build</dir>
@@ -234,12 +232,12 @@
         <option value="$PROJECT_DIR$/source/js/components/Global/Chat.jsx" />
         <option value="$PROJECT_DIR$/source/scss/base/_app.scss" />
         <option value="$PROJECT_DIR$/source/js/components/Global/Help.jsx" />
-        <option value="$PROJECT_DIR$/source/js/components/Global/RightNav.jsx" />
         <option value="$PROJECT_DIR$/source/js/reducers/app.js" />
         <option value="$PROJECT_DIR$/source/js/views/App/index.jsx" />
         <option value="$PROJECT_DIR$/source/js/views/Billing/Bar.jsx" />
         <option value="$PROJECT_DIR$/source/js/views/User/User.jsx" />
         <option value="$PROJECT_DIR$/source/js/views/User/Edit.jsx" />
+        <option value="$PROJECT_DIR$/source/js/components/Global/RightNav.jsx" />
       </list>
     </option>
   </component>
@@ -683,7 +681,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84030000" />
+    <option name="totallyTimeSpent" value="84512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1077,14 +1075,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/components/Global/RightNav.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/js/reducers/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
@@ -1174,6 +1164,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/components/Global/RightNav.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding />
         </state>
       </provider>

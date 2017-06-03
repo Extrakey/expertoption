@@ -19,7 +19,8 @@ export default class RightMenu extends Component {
   constructor() {
     super()
     this.state = {
-      showRightNav: false
+      showRightNav: false,
+      rightNavIndex: 0
     }
   }
 
@@ -36,11 +37,17 @@ export default class RightMenu extends Component {
     })
   }
 
+  toggleRightNavBtn () {
+    this.setState({
+      showRightNav: !this.state.showRightNav
+    })
+  }
+
   render() {
     const {showRightNav, rightNavIndex} = this.state
     return (
       <div className='right-menu'>
-      	<div className="top-btn" onClick={::this.toggleRightNav}> {showRightNav ? 'X' :  '打开'}</div>
+      	<div className="top-btn" onClick={::this.toggleRightNavBtn}> {showRightNav ? 'X' :  '打开'}</div>
         <div className="flex h_100">
           {showRightNav && rightNavIndex === 0 &&
             <div className="left-content">
