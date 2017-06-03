@@ -7,11 +7,6 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import PropTypes from 'prop-types';
 import * as billingAction from 'actions/billing';
-import { routeCodes } from '../../routes';
-import PayItem from './PayItem';
-import Info from './Info';
-import Bar from './Bar';
-import TabNav from 'components/Global/TabNav';
 import Radium from 'radium'
 
 

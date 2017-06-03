@@ -1,15 +1,6 @@
 /**
  * Created by jiangnan on 17/6/1.
  */
-/**
- * Created by jiangnan on 17/6/1.
- */
-/**
- * Created by jiangnan on 17/6/1.
- */
-/**
- * Created by jiangnan on 17/5/31.
- */
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
@@ -31,7 +22,7 @@ const style = {
     fontSize: '12px'
   },
   barWrapper: {
-    width: '450px',
+    width: '350px',
   },
   barInnerWrapper: {
     backgroundColor: '#fff',
@@ -53,10 +44,8 @@ const style = {
 
 @Radium
 export default class Bar extends Component {
-
   render() {
     const { color, percent } = this.props
-    console.log(color)
     return (
       <div className="flex column" style={style.barWrapper}>
         <div className="flex flex1">

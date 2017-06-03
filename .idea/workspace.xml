@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef9124b-be2a-4a3b-b08f-e2e2b7de31f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/js/components/Global/Help.jsx" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/js/components/Global/Icon.jsx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/actions/app.js" afterPath="$PROJECT_DIR$/source/js/actions/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/components/Global/AppNav.jsx" afterPath="$PROJECT_DIR$/source/js/components/Global/AppNav.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/components/Global/Chat.jsx" afterPath="$PROJECT_DIR$/source/js/components/Global/Chat.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/components/Global/RightNav.jsx" afterPath="$PROJECT_DIR$/source/js/components/Global/RightNav.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/reducers/app.js" afterPath="$PROJECT_DIR$/source/js/reducers/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/views/App/index.jsx" afterPath="$PROJECT_DIR$/source/js/views/App/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/scss/base/_app.scss" afterPath="$PROJECT_DIR$/source/scss/base/_app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/views/Billing/Bar.jsx" afterPath="$PROJECT_DIR$/source/js/views/Billing/Bar.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/views/Billing/Withdrawal.jsx" afterPath="$PROJECT_DIR$/source/js/views/Billing/Withdrawal.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/views/User/User.jsx" afterPath="$PROJECT_DIR$/source/js/views/User/User.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,12 +19,59 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppNav.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/js/components/Global/AppNav.jsx">
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/js/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="44" column="61" lean-forward="false" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="61" />
+            <state relative-caret-position="284">
+              <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Info.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/js/views/Info/Info.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/js/views/User/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/js/views/User/User.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="54" column="59" lean-forward="false" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#43#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bar.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/js/views/Billing/Bar.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,18 +82,6 @@
             <state relative-caret-position="-1019">
               <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Help.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/js/components/Global/Help.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-              <folding>
-                <element signature="e#42#83#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -70,28 +98,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chat.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/js/components/Global/Chat.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="e#42#83#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_app.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/scss/base/_app.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="375" column="19" lean-forward="false" selection-start-line="375" selection-start-column="19" selection-end-line="375" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RightNav.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/js/components/Global/RightNav.jsx">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,19 +108,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Modal.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/js/components/Global/Modal.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
-              <folding>
-                <element signature="e#42#83#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/js/views/App/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="460">
@@ -150,8 +144,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>TEST_ASYNC_ACTION_START</find>
-      <find>Nodata</find>
       <find>TEST_ASYNC_ACTION_ERROR</find>
       <find>showSetting</find>
       <find>c</find>
@@ -176,18 +168,21 @@
       <find>d</find>
       <find>di</find>
       <find>ding wei</find>
-      <find>定位</find>
       <find>TOGGLE_CHAT</find>
       <find>isShowHelp</find>
       <find>appAction</find>
+      <find>定位</find>
+      <find>Bar</find>
+      <find>NoData</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/build</dir>
       <dir>$PROJECT_DIR$/source</dir>
       <dir>$PROJECT_DIR$/source/js</dir>
-      <dir>$PROJECT_DIR$/source/js/views</dir>
       <dir>$PROJECT_DIR$/source/js/components</dir>
       <dir>$PROJECT_DIR$/source/js/components/Global</dir>
+      <dir>$PROJECT_DIR$/source/js/views/Billing</dir>
+      <dir>$PROJECT_DIR$/source/js/views</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -196,8 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/source/js/views/Info/Faq.jsx" />
-        <option value="$PROJECT_DIR$/source/js/views/Info/Terms.jsx" />
         <option value="$PROJECT_DIR$/source/js/routes.js" />
         <option value="$PROJECT_DIR$/source/mock/terms.js" />
         <option value="$PROJECT_DIR$/source/mock/terms.json" />
@@ -247,6 +240,8 @@
         <option value="$PROJECT_DIR$/source/js/components/Global/RightNav.jsx" />
         <option value="$PROJECT_DIR$/source/js/reducers/app.js" />
         <option value="$PROJECT_DIR$/source/js/views/App/index.jsx" />
+        <option value="$PROJECT_DIR$/source/js/views/Billing/Bar.jsx" />
+        <option value="$PROJECT_DIR$/source/js/views/User/User.jsx" />
       </list>
     </option>
   </component>
@@ -438,6 +433,32 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="User" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="expertoption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="expertoption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -461,7 +482,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="App" />
+              <option name="myItemId" value="Billing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -510,28 +531,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Global" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="expertoption" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="expertoption" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -686,7 +685,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82548000" />
+    <option name="totallyTimeSpent" value="83463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -734,33 +733,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/js/views/Info/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/views/Info/Info.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding>
-            <element signature="e#43#84#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yarn.lock" />
-    <entry file="file://$PROJECT_DIR$/source/scss/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/js/actions/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1014,16 +986,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="85" column="42" lean-forward="false" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="42" />
-          <folding>
-            <element signature="e#166#196#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/js/components/Global/Nav.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1167,6 +1129,53 @@
           <caret line="39" column="57" lean-forward="false" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/views/Info/Info.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/views/User/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/views/Billing/Bar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/views/User/User.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="54" column="59" lean-forward="false" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#43#84#0" expanded="true" />
           </folding>
         </state>
       </provider>
