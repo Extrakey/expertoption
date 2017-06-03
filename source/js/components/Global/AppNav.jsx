@@ -48,10 +48,10 @@ export default class AppNav extends Component {
       <div className='app-navs'>
         <img src={require('../../../assets/img/logo.jpg')} width={40} alt="logo"/>
         <span onClick={ this.toggleLanguageShow }><FormattedMessage id="changeLanguage" /></span>
-        <span>全屏</span>
-        <span onClick={toggleHelp}>如何交易</span>
-        <span onClick={toggleSound}>声音{sound ? '开' :'关'}</span>
-        <span>定位</span>
+        <span><FormattedMessage id="fullScreen" /></span>
+        <span onClick={toggleHelp}><FormattedMessage id="howToTrade" /></span>
+        <span onClick={toggleSound}><FormattedMessage id="voice" />{sound ? '开' :'关'}</span>
+        <span><FormattedMessage id="location" /></span>
         <span onClick={toggleChat}>live chart</span>
         <div className="language-menu" style={{ display: showLanguage ? 'block' : 'none' }} onClick={ this.setLanguage }>
           <span data-lan="en">English</span>

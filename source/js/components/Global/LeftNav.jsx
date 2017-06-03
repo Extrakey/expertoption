@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { IndexLink, Link } from 'react-router';
 import { routeCodes } from '../../routes';
+import { FormattedMessage } from 'react-intl'
 
 export default class Menu extends Component {
   render() {
@@ -17,7 +18,7 @@ export default class Menu extends Component {
              activeClassName='menu-link-active'
              to={ routeCodes.APP }
            >
-             交易
+             <FormattedMessage id="trade" />
            </Link>
          </li>
          <li>
@@ -25,7 +26,7 @@ export default class Menu extends Component {
              activeClassName='menu-link-active'
              to={ routeCodes.BILLING }
            >
-             财务管理
+             <FormattedMessage id="finances" />
            </Link>
          </li>
          <li>
@@ -33,7 +34,7 @@ export default class Menu extends Component {
              activeClassName='menu-link-active'
              to={ routeCodes.USER }
            >
-             个人资料
+             <FormattedMessage id="profile" />
            </Link>
          </li>
          <li>
@@ -41,7 +42,7 @@ export default class Menu extends Component {
              activeClassName='menu-link-active'
              to={ routeCodes.ANALYTICS }
            >
-             市场分析
+             <FormattedMessage id="analytics" />
            </Link>
          </li>
          <li>
@@ -49,7 +50,7 @@ export default class Menu extends Component {
              activeClassName='menu-link-active'
              to={ routeCodes.PLANTFORMS }
            >
-             应用
+             <FormattedMessage id="apps" />
            </Link>
          </li>
          <li>
@@ -57,7 +58,7 @@ export default class Menu extends Component {
              activeClassName='menu-link-active'
              to={ routeCodes.INFO }
            >
-             帮助
+             <FormattedMessage id="helps" />
            </Link>
          </li>
        </ul>
