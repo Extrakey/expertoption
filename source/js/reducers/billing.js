@@ -16,7 +16,7 @@ const initialState = Immutable.fromJS({
   asyncLoading: false,
   asyncError: null,
   asyncData: null,
-  list: {
+  data: {
     presets: [],
     payment_methods: [],
     payment_methods_less: [],
@@ -45,7 +45,7 @@ const actionsMap = {
   [GET_BILLING_SUCCESS]: (state, action) => {
     return state.merge({
       asyncLoading: false,
-      list: {
+      data: {
         ...action.data,
         payment_methods_less: action.data.payment_methods.slice(0, 3),
       },

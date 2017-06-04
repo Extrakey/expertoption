@@ -18,7 +18,8 @@ const style = {
     margin: '1rem',
     padding: '1rem',
     textAlign: 'center',
-    border: '1px solid #000',
+    borderWidth: '1px',
+    borderColor: '#000',
     width: '200px',
   },
   desc: {

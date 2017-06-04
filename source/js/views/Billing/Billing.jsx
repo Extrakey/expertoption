@@ -50,14 +50,15 @@ const style = {
     margin: '1rem',
     padding: '1rem',
     textAlign: 'center',
-    border: '1px solid #000',
+    borderWidth: '1px',
+    borderColor: '#000',
     width: '100px',
     height: '100px',
   }
 }
 
 @connect(state => ({
-  billing: state.billing.get('list').toJS(),
+  billing: state.billing.get('data').toJS(),
 }), dispatch => bindActionCreators(billingAction, dispatch))
 @Radium
 export default class App extends Component {
@@ -88,6 +89,13 @@ export default class App extends Component {
     this.props.mobileDeposit()
   }
 
+  componentWillReceiveProps(nextProps) {
+    if(!this.props.billing.currency.length && nextProps.billing.currency.length){
+      this.setState({
+        priceValue:  nextProps.billing.currency[this.state.currencyOn].min_deposit
+      })
+    }
+  }
 
   clickPay(activeIndex, type, item) {
     this.setState({
@@ -111,10 +119,12 @@ export default class App extends Component {
 
   changeCurrency(event) {
     const { currency } = this.props.billing
+    const { currencyOn } = this.state
     currency.forEach((item, index) => {
       if (item.iso_code === event.target.value) {
         this.setState({
-          currencyOn: index
+          currencyOn: index,
+          priceValue: currency[currencyOn].min_deposit
         })
       }
     })
@@ -135,10 +145,16 @@ export default class App extends Component {
     })
   }
 
+  changePriceValue(e) {
+    this.setState({
+      priceValue: e.target.value
+    })
+  }
+
 
   render() {
     const { presets, payment_methods, payment_methods_less, currency } = this.props.billing;
-    const { activeIndex, activeIndexSys, showMorePay, currencyOn, money, haveBonus, methodsColor, percent, moreStatus } = this.state
+    const { activeIndex, activeIndexSys, showMorePay, currencyOn, money, haveBonus, methodsColor, percent, moreStatus, priceValue } = this.state
     const payment_methods_list = showMorePay ? payment_methods_less : payment_methods
     return (
       <div className="flex">
@@ -172,7 +188,7 @@ export default class App extends Component {
             <label htmlFor="changeBonus"><input id="changeBonus" type="checkbox" checked={haveBonus} onChange={::this.changeBonus}/> 获得奖金</label>
           </div>
           <div>
-            <input type="text" value={currency[currencyOn] ? currency[currencyOn].min_deposit : 0}/>
+            <input type="text" value={priceValue} onChange={::this.changePriceValue}/>
             <select name="" id="" onChange={::this.changeCurrency}>
               {currency.map(item => {
                 return <option value={item.name}>{item.sign + item.iso_code}</option>
