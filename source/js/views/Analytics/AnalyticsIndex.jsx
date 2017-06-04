@@ -51,10 +51,10 @@ const style = {
   }
 }
 
-@Radium
 @connect(state => ({
   analytics: state.analytics.get('scheduleData').toJS(),
 }), dispatch => bindActionCreators(analyticsAction, dispatch))
+@Radium
 export default class App extends Component {
   static propTypes = {
     children: PropTypes.object,
@@ -72,7 +72,6 @@ export default class App extends Component {
   }
 
   render() {
-    console.log(this.props.analytics)
     return (
       <div className='flex column flex1'>
         <div className="schedule-table">

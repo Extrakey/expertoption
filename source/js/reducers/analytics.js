@@ -6,7 +6,8 @@ import Immutable from 'immutable'
 
 import {
   GET_ASYNC_START,
-  GET_SCHEDULE_ERROR,
+  GET_ASYNC_ERROR,
+  GET_MAP_SUCCESS,
   GET_SCHEDULE_SUCCESS
 } from 'actions/analytics.js';
 
@@ -15,6 +16,7 @@ const initialState = Immutable.fromJS({
   asyncError: null,
   asyncData: null,
   scheduleData: [],
+  mapData: []
 });
 
 const actionsMap = {
@@ -26,7 +28,7 @@ const actionsMap = {
       asyncError: null,
     });
   },
-  [GET_SCHEDULE_ERROR]: (state, action) => {
+  [GET_ASYNC_ERROR]: (state, action) => {
     return state.merge({
       asyncLoading: false,
       asyncError: action.data,
@@ -36,6 +38,12 @@ const actionsMap = {
     return state.merge({
       asyncLoading: false,
       scheduleData: action.data
+    });
+  },
+  [GET_MAP_SUCCESS]: (state, action) => {
+    return state.merge({
+      asyncLoading: false,
+      mapData: action.data.mapData
     });
   },
 };
