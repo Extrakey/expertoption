@@ -1,3 +1,4 @@
+import 'babel-polyfill'
 import zh_CN from './zh_CN.js';
 import zh_TW from './zh_TW.js';
 import en from './en.js';

@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
+import rootReducer from 'reducers';
+import Routes from 'routes';
 import 'babel-polyfill';
 import logger from 'dev/logger';
 
 // 多语言
 import {IntlProvider, addLocaleData} from 'react-intl';
+import intl from 'intl';
 import en from 'react-intl/locale-data/en';
 import zh from 'react-intl/locale-data/zh';
 import locale from './locale';
@@ -16,9 +19,6 @@ import { getQueryValue } from "./util";
 addLocaleData([...en, ...zh]);
 
 const language = !!getQueryValue('locale') ? getQueryValue('locale') : 'zh_CN'
-
-import rootReducer from 'reducers';
-import Routes from 'routes';
 
 // Load SCSS
 import '../scss/app.scss';
@@ -58,8 +58,6 @@ if (isProduction) {
     enhancer
   );
 }
-
-console.log(store)
 
 // Render it to DOM
 ReactDOM.render(
