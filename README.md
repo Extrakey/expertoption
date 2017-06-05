@@ -64,5 +64,29 @@ const publicPath = '/your-app/';
 
 
 
-## 组件
+## 目录结构说明
 
+```bash
+.
+├── src                              # 源代码目录
+│   ├── assets                       # 静态资源目录
+│   ├── js                           # js目录
+│   │   ├── components               # 模块目录
+│   │   │   ├── Common               # 公共组件
+│   │   │   └── Global               # 全局组件
+│   │   ├── dev                      # 本地开发配置
+│   │   ├── locale                   # 多语言文件包
+│   │   ├── utils                    # 功能函数目录
+│   │   ├── views                    # 页面组件目录
+│   │   ├── index.js                 # 入口文件
+│   │   └── routes.js                # 路由配置文件
+│   ├── mock                         # 虚拟数据目录
+│   ├── scss                         # 全局样式目录
+│   └── main.js                   # 入口文件
+├── README.md
+├── webpack.config.js             # webpack配置文件
+└── package.json                  # package.json
+
+```
+## 说明
+关于多语言，在`locale`目录中配置对应的语言包，在组件中使用[react-intl]库中的`FormattedMessage`组件即可，⚠️添加新语言同时需要在`components/Global/SwitchLanguage.jsx`文件中添加对应的`data-lan`属性

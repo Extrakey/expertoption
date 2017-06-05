@@ -7,7 +7,7 @@ import { IndexLink, Link } from 'react-router';
 import { routeCodes } from '../../routes';
 import { FormattedMessage } from 'react-intl'
 
-export default class Menu extends Component {
+export default class LeftNav extends Component {
   render() {
     const {showSetting, showLogout} = this.props
     return (

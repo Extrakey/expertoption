@@ -4,11 +4,11 @@
 import React, { Component } from 'react';
 import { IndexLink, Link } from 'react-router';
 import { routeCodes } from '../../routes';
-import { changeURLPar } from "../../util";
 import { FormattedMessage } from 'react-intl'
 import * as appAction from 'actions/app';
-import { connect } from 'react-redux'
-import { bindActionCreators } from 'redux'
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import SwitchLanguage from "./SwitchLanguage";
 
 const style = {
   menuLinks: {
@@ -23,7 +23,6 @@ export default class AppNav extends Component {
   constructor(){
     super()
     this.toggleLanguageShow = this.toggleLanguageShow.bind(this)
-    this.setLanguage = this.setLanguage.bind(this)
     this.state = {
       showLanguage: false,
     }
@@ -35,11 +34,7 @@ export default class AppNav extends Component {
     })
   }
 
-  setLanguage(e) {
-    if (e.target.dataset.lan) {
-      window.location.href = changeURLPar('locale', e.target.dataset.lan)
-    }
-  }
+  
 
   render() {
     const { app: {sound}, toggleSound, toggleChat, toggleHelp } = this.props
@@ -53,12 +48,7 @@ export default class AppNav extends Component {
         <span onClick={toggleSound}><FormattedMessage id="voice" />{sound ? '开' :'关'}</span>
         <span><FormattedMessage id="location" /></span>
         <span onClick={toggleChat}>live chart</span>
-        <div className="language-menu" style={{ display: showLanguage ? 'block' : 'none' }} onClick={ this.setLanguage }>
-          <span data-lan="en">English</span>
-          <span data-lan="zh_CN">简体中文</span>
-          <span data-lan="zh_TW">繁体中文</span>
-          <span data-lan="ja">日文</span>
-        </div>
+        <SwitchLanguage showLanguage={showLanguage} />
         <Link to={routeCodes.BILLING}><button className="button">Deposit</button></Link>
       </div>
     );

@@ -14,7 +14,7 @@ import intl from 'intl';
 import en from 'react-intl/locale-data/en';
 import zh from 'react-intl/locale-data/zh';
 import locale from './locale';
-import { getQueryValue } from "./util";
+import { getQueryValue } from "./utils";
 
 addLocaleData([...en, ...zh]);
 
