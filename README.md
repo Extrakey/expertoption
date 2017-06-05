@@ -58,5 +58,11 @@ output: {
 const publicPath = '/your-app/';
 ```
 
+## Redux 流程
+
+![Alt text](https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1667620917,557709590&fm=23&gp=0.jpg)
+
+
+
 ## 组件
 
