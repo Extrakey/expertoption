@@ -82,7 +82,7 @@ const publicPath = '/your-app/';
 │   │   └── routes.js                # 路由配置文件
 │   ├── mock                         # 虚拟数据目录
 │   ├── scss                         # 全局样式目录
-│   └── main.js                      # 入口文件
+│   └── index.html                   # 模版文件
 ├── README.md
 ├── webpack.config.js                # webpack配置文件
 └── package.json                     # package.json
