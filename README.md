@@ -88,5 +88,5 @@ const publicPath = '/your-app/';
 └── package.json                     # package.json
 
 ```
-## 说明
-关于多语言，在`locale`目录中配置对应的语言包，在组件中使用[react-intl]库中的`FormattedMessage`组件即可，⚠️添加新语言同时需要在`components/Global/SwitchLanguage.jsx`文件中添加对应的`data-lan`属性
+## 关于多语言
+在`locale`目录中配置对应的语言包，在组件中使用[react-intl]库中的`FormattedMessage`组件即可，⚠️添加新语言同时需要在`components/Global/SwitchLanguage.jsx`文件中添加对应的`data-lan`属性
